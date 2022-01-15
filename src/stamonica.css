@@ -26,6 +26,10 @@ iframe.map {
  height: 20em;
 }
 
+label {
+ display: inline;
+}
+
 header {
   display: inline-block;
 /*  text-align: center;*/
