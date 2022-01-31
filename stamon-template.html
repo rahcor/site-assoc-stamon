@@ -4,6 +4,10 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    $if(favicon)$
+  	<link rel="shortcut icon" href="$favicon$" type="image/x-icon">
+	<link rel="icon" href="$favicon$" type="image/x-icon">
+  $endif$
 $for(author-meta)$
   <meta name="author" content="$author-meta$" />
 $endfor$
@@ -33,7 +37,7 @@ $endfor$
 </head>
 <body>
   $if(logo)$
-  <img src="$logo$" alt="Logotipo do sancaLUG" class="logo" />
+  <img src="$logo$" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
   $endif$
   $for(include-before)$
   $include-before$
@@ -57,9 +61,20 @@ $endfor$
     $table-of-contents$
   </nav>
   $endif$
+  $if(nav-main)$
+    ${ include/nav-main.html() }
+  $endif$
+  $if(nav-sub)$
+    $if(nav-sobre)$
+      ${ include/nav-sobre.html() }
+    $endif$
+  $endif$
   $body$
   $for(include-after)$
   $include-after$
   $endfor$
+  $if(footer)$
+    ${ include/footer.html() }
+  $endif$
 </body>
 </html>
