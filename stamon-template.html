@@ -61,12 +61,21 @@ $endfor$
     $table-of-contents$
   </nav>
   $endif$
+  $if(pre-nav)$
+    $pre-nav$
+  $endif$
   $if(nav-main)$
     ${ include/nav-main.html() }
   $endif$
   $if(nav-sub)$
     $if(nav-sobre)$
       ${ include/nav-sobre.html() }
+    $endif$
+    $if(nav-assoc)$
+      ${ include/nav-assoc.html() }
+    $endif$
+    $if(nav-morad)$
+      ${ include/nav-morad.html() }
     $endif$
   $endif$
   $body$

@@ -10,22 +10,9 @@ favicon: './favicon.ico'
 footer: True
 nav-main: True
 nav-sub: True
+nav-sobre: True
+nav-assoc: True
 nav-morad: True
+pre-nav: <h2 class="center" id="mapa-do-site">Mapa do site</h2>
 ---
-
-## Mural de recados
-
-
-## Previsão do tempo
-
-
-## Guias e orientações
-
-
-## Direitos e deveres dos associados
-
-
-## Eventos
-
-
 
