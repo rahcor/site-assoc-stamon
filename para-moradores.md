@@ -15,17 +15,43 @@ nav-morad: True
 
 ## Mural de recados
 
+* [Último comunicado](./temp-images/202201-comunicado.pdf)
+* Recado 1
+* Recado 2
+
 
 ## Previsão do tempo
 
+<!--![Chuva agora. Fonte: IPMET/UNESP](https://www.ipmetradar.com.br/img-ppi/ppi-anim.gif)-->
+
+<figure style="text-align: center; overflow:hidden; border-radius: 1em;">
+  <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; " alt="Previsão do tempo. Fonte: CPTEC/INPE">
+</figure>
+
 
 ## Guias e orientações
+
+!!_Guias e orientações para os moradores contribuirem com a manutenção geral do bairro_!!
+
+O que faço em caso de:
+
+* poste com luz queimada;
+* atitude suspeita;
+* vazamento de água na rua;
+* lixo em via pública;
+
+Orientações:
+
+* sugestões de segurança;
+* descarte de jardinagem;
+* descarte de entulho de reforma;
+* separação de coleta seletiva;
 
 
 ## Direitos e deveres dos associados
 
 
-## Eventos
+## Eventos e pesquisas de opinião
 
 
 

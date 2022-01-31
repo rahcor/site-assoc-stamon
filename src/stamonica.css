@@ -12,6 +12,19 @@ h1 {
   font-style: italic;
 }
 
+.icon{
+  font-size: 250%;
+  margin: 0 1em;
+}
+.center-icons{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
 img.logo {
   margin: auto;
   border-radius: 10%;
