@@ -33,6 +33,10 @@ img.logo {
   vertical-align: middle;
 }
 
+video {
+  border-radius: 1em;
+}
+
 iframe.map {
  border-radius: 1em;
  width: 100%;
