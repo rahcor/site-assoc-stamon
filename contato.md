@@ -8,8 +8,11 @@ subtitle: 'São Carlos - SP'
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
-nav-main: True
-nav-sub: False
+font-awesome: True
+site-map: True
+bairro-page: True
+assoc-page: True
+morad-page: True
 ---
 
 ## Contato{.center}
@@ -25,5 +28,7 @@ nav-sub: False
   </div>
   <button type="submit" class="btn btn--large btn--link custom" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar<i class="fas fa-hand-pointer clicable" style="font-size: 0.9em; margin-left: 0.5em; vertical-align: baseline;"></i></button>
 </form>
+
+
 
 

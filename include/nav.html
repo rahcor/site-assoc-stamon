@@ -1,0 +1,36 @@
+<nav id="menu" $if(site-map)$class="sitemap"$endif$>
+  <details open=""><summary>Menu$if(first-page)$ (clique nas linhas azuis abaixo para saber mais sobre cada tópico)$endif$$if(site-map)$ (mapa do site)$endif$</summary>
+    <ol>   <!-- Aumentar o espaçamento entre linhas no mobile!-->
+      <li>$if(first-page)$Página inicial$else$
+          <a href="./index.html"><strong>Página inicial</strong>: apresentação e vídeo institucional</a>$endif$</li>
+      <li>$if(bairro-page)$$if(site-map)$<a href="./sobre-o-bairro.html">Sobre o bairro:</a>$else$Sobre o bairro:$endif$
+          <ul>
+          <li><a href="$if(site-map)$./sobre-o-bairro.html$endif$#apresentacao">Apresentação</a></li>
+          <li><a href="$if(site-map)$./sobre-o-bairro.html$endif$#meio-ambiente">Meio ambiente e qualidade de vida</li>
+          <li><a href="$if(site-map)$./sobre-o-bairro.html$endif$#seguranca">Segurança, iluminação e infraestrutura</a></li>
+          <li><a href="$if(site-map)$./sobre-o-bairro.html$endif$#historia-e-midias">História, curiosidades, fotos e vídeos</a></li>
+          <li><a href="$if(site-map)$./sobre-o-bairro.html$endif$#mapa-interativo">Mapa interativo</a></li>
+          </ul>$else$
+          <a href="./sobre-o-bairro.html"><strong>O bairro</strong>: infraestrutura, informações e fotos</a>$endif$</li>
+      <li>$if(assoc-page)$$if(site-map)$<a href="./associacao-de-moradores.html">Sobre a Associação:</a>$else$Sobre a Associação:$endif$
+          <ul>
+          <li><a href="$if(site-map)$./associacao-de-moradores.html$endif$#apresentacao">Apresentação e principais conquistas</a></li>
+          <li><a href="$if(site-map)$./associacao-de-moradores.html$endif$#ambiental">Projetos ambientais</a></li>
+          <li><a href="$if(site-map)$./associacao-de-moradores.html$endif$#manutenção">Projetos de manutenção</a></li>
+          <li><a href="$if(site-map)$./associacao-de-moradores.html$endif$#segurança">Projetos de segurança</a></li>
+          <li><a href="$if(site-map)$./associacao-de-moradores.html$endif$#documentos">Documentos: comunicados, estatuto e prestação de contas</a></li>
+          </ul>$else$
+          <a href="./associacao-de-moradores.html"><strong>A associação</strong>: diretrizes, projetos e conquistas</a>$endif$</li>
+      <li class="morad-markers">$if(morad-page)$$if(site-map)$<a href="./para-moradores.html">Para moradores:</a>$else$Para moradores:$endif$
+          <ul>
+          <li><a href="$if(site-map)$./para-moradores.html$endif$#mural-de-recados">Mural de recados</a></li>
+          <li><a href="$if(site-map)$./para-moradores.html$endif$#previsao-do-tempo">Previsão do tempo</a></li>
+          <li><a href="$if(site-map)$./para-moradores.html$endif$#guias-e-orientacoes.html">Guias e orientações</a></li>
+          <li><a href="$if(site-map)$./para-moradores.html$endif$#direitos-e-deveres">Direitos e deveres dos associados</a></li>
+          <li><a href="$if(site-map)$./para-moradores.html$endif$#eventos.html">Eventos</a></li>
+          </ul>$else$
+          <a href="./para-moradores.html"><strong>Para moradores</strong>: utilidades, comunicados e como se associar</a>$endif$</li>
+      <li>$if(site-map)$Contato e mapa do site$else$<a href="./contato.html"><strong>Contato</strong> e Mapa do site</a>$endif$</li>
+    </ol>
+  </details>
+</nav>

@@ -9,64 +9,67 @@
     <title>Associação de Moradores do Parque Santa Mônica</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css" />
   <link rel="stylesheet" href="./src/stamonica.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 </head>
 <body>
-    <img src="./src/logo.png" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
+    <img id= "logo" src="./src/logo.png" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
         <header>
     <h1 class="title">Associação de Moradores do Parque Santa Mônica</h1>
         <h2 class="subtitle">São Carlos - SP</h2>
               </header>
-                <nav id="menu">
-                  <details > <summary>Menu (clique para abrir)</summary>
-                      <ol>
-                      <li><a href="./index.html"><strong>Apresentação</strong></a></li>
-                      <li><a href="./sobre-o-bairro.html"><strong>O bairro</strong>: infraestrutura, informações e fotos</a></li>
-                      <li><a href="./associacao-de-moradores.html"><strong>A associação</strong>: diretrizes, projetos e conquistas</a></li>
-                      <li><a href="./para-moradores.html"><strong>Para moradores</strong>: utilidades, comunicados e orientações</a></li>
-                      <li><a href="./contato.html"><strong>Contato</strong> e como se associar</a></li>
-                      <li><a href="./mapa-do-site.html"><strong>Mapa do site</strong></a></li>
-                      </ol>
-                  </details>
-                </nav>                          <nav id="submenu">
-                                      <details open=""> <summary>Utilidades para os moradores</summary>
-                                          <ol>
-                                          <li><a href="#mural-de-recados">Mural de recados</a></li>
-                                          <li><a href="#previsao-do-tempo">Previsão do tempo</a></li>
-                                          <li><a href="#guias-e-orientacoes.html">Guias e orientações</></li>
-                                          <li><a href="#direitos-e-deveres">Direitos e deveres dos associados</a></li>
-                                          <li><a href="#eventos.html">Eventos</a></li>
-                                          </ol>
-                                      </details>
-                                    </nav>        <h2 id="mural-de-recados">Mural de recados</h2>
+        <nav id="menu" >
+          <details open=""><summary>Menu</summary>
+            <ol>   <!-- Aumentar o espaçamento entre linhas no mobile!-->
+              <li>
+                  <a href="./index.html"><strong>Página inicial</strong>: apresentação e vídeo institucional</a></li>
+              <li>
+                  <a href="./sobre-o-bairro.html"><strong>O bairro</strong>: infraestrutura, informações e fotos</a></li>
+              <li>
+                  <a href="./associacao-de-moradores.html"><strong>A associação</strong>: diretrizes, projetos e conquistas</a></li>
+              <li class="morad-markers">Para moradores:
                   <ul>
-                  <li><a href="./temp-images/202201-comunicado.pdf">Último comunicado</a></li>
-                  <li>Recado 1</li>
-                  <li>Recado 2</li>
-                  </ul>
-                  <h2 id="previsão-do-tempo">Previsão do tempo</h2>
-                  <!--![Chuva agora. Fonte: IPMET/UNESP](https://www.ipmetradar.com.br/img-ppi/ppi-anim.gif)-->
-                  <figure style="text-align: center; overflow:hidden; border-radius: 1em;">
-                  <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; " alt="Previsão do tempo. Fonte: CPTEC/INPE">
-                  </figure>
-                  <h2 id="guias-e-orientações">Guias e orientações</h2>
-                  <p>!!<em>Guias e orientações para os moradores contribuirem com a manutenção geral do bairro</em>!!</p>
-                  <p>O que faço em caso de:</p>
-                  <ul>
-                  <li>poste com luz queimada;</li>
-                  <li>atitude suspeita;</li>
-                  <li>vazamento de água na rua;</li>
-                  <li>lixo em via pública;</li>
-                  </ul>
-                  <p>Orientações:</p>
-                  <ul>
-                  <li>sugestões de segurança;</li>
-                  <li>descarte de jardinagem;</li>
-                  <li>descarte de entulho de reforma;</li>
-                  <li>separação de coleta seletiva;</li>
-                  </ul>
-                  <h2 id="direitos-e-deveres-dos-associados">Direitos e deveres dos associados</h2>
-                  <h2 id="eventos-e-pesquisas-de-opinião">Eventos e pesquisas de opinião</h2>
+                  <li><a href="#mural-de-recados">Mural de recados</a></li>
+                  <li><a href="#previsao-do-tempo">Previsão do tempo</a></li>
+                  <li><a href="#guias-e-orientacoes.html">Guias e orientações</a></li>
+                  <li><a href="#direitos-e-deveres">Direitos e deveres dos associados</a></li>
+                  <li><a href="#eventos.html">Eventos</a></li>
+                  </ul></li>
+              <li><a href="./contato.html"><strong>Contato</strong> e Mapa do site</a></li>
+            </ol>
+          </details>
+        </nav>  <h2 id="mural-de-recados">Mural de recados</h2>
+        <ul>
+        <li><a href="./temp-images/202201-comunicado.pdf">Último comunicado</a></li>
+        <li>Recado 1</li>
+        <li>Recado 2</li>
+        </ul>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="previsão-do-tempo">Previsão do tempo</h2>
+        <!--![Chuva agora. Fonte: IPMET/UNESP](https://www.ipmetradar.com.br/img-ppi/ppi-anim.gif)-->
+        <figure style="text-align: center; overflow:hidden; border-radius: 1em;">
+        <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; " alt="Previsão do tempo. Fonte: CPTEC/INPE">
+        </figure>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="guias-e-orientações">Guias e orientações</h2>
+        <p>!!<em>Guias e orientações para os moradores contribuirem com a manutenção geral do bairro</em>!!</p>
+        <p>O que faço em caso de:</p>
+        <ul>
+        <li>poste com luz queimada;</li>
+        <li>atitude suspeita;</li>
+        <li>vazamento de água na rua;</li>
+        <li>lixo em via pública;</li>
+        </ul>
+        <p>Orientações:</p>
+        <ul>
+        <li>sugestões de segurança;</li>
+        <li>descarte de jardinagem;</li>
+        <li>descarte de entulho de reforma;</li>
+        <li>separação de coleta seletiva;</li>
+        </ul>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="direitos-e-deveres-dos-associados">Direitos e deveres dos associados</h2>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="eventos-e-pesquisas-de-opinião">Eventos e pesquisas de opinião</h2>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
         <footer style="text-align: justify;">
         <p>© 2022 Associação de Moradores do Parque Santa Mônica, porém uso disponível sob licença livre <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Creative Commons BY-SA 4.0</a>, exceto para os conteúdos não originais desse site.
         Construído com <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a> pela própria Associação.</p>

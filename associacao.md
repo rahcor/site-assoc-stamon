@@ -8,9 +8,8 @@ subtitle: 'São Carlos - SP'
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
-nav-main: True
-nav-sub: True
-nav-assoc: True
+assoc-page: True
+font-awesome: True
 ---
 
 
@@ -30,6 +29,7 @@ Além disso, visa unir forças para representar os interesses dos moradores junt
 Veja a seguir como esses resultados e os da sessão [sobre o bairro](../sobre-o-bairro.html) são conseguidos.
 Atualmente cerca de 8 voluntarios desenvolvem os projetos -- venha ajudar para construirmos um bairro melhor!
 
+[↥ Retornar ao menu](#logo)
 
 ## Projetos ambientais{#ambiental}
 
@@ -39,6 +39,7 @@ Recolhimento do material dos pontos fixos de descarte consciente.
 Reposição de saquinhos do pipicão.
 Podas.
 
+[↥ Retornar ao menu](#logo)
 
 ## Projetos de infraestrutura e manutenção{#manutenção}
 
@@ -47,6 +48,7 @@ Podas.
 Pintura dos postes com nomes das ruas.
 Solicitação de troca de lâmpada queimada.
 
+[↥ Retornar ao menu](#logo)
 
 ## Projetos de segurança{#segurança}
 
@@ -56,6 +58,7 @@ Contrato e supervisão com empresa prestadora de serviço dos vigias.
 Pagamento dos custos mensais (internet e luz) das câmeras.
 Planejamento de implantação da câmeras e expansão do número de pontos.
 
+[↥ Retornar ao menu](#logo)
 
 ## Atividades administrativas
 
@@ -65,6 +68,7 @@ Contato com prestadores de serviço.
 Elaboração de comunicados e atualização do site.
 Gestão financeira.
 
+[↥ Retornar ao menu](#logo)
 
 ## Documentos{#documentos}
 
@@ -82,5 +86,5 @@ Gestão financeira.
   </ol>
 </details>
 
-
+[↥ Retornar ao menu](#logo)
 

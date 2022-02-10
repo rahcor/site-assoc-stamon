@@ -9,8 +9,7 @@ subtitle: 'São Carlos - SP'
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
-nav-main: True
-nav-sub: False
+first-page: True
 ---
 
 :::{.center}

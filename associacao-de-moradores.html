@@ -12,81 +12,86 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 </head>
 <body>
-    <img src="./src/logo.png" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
+    <img id= "logo" src="./src/logo.png" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
         <header>
     <h1 class="title">Associação de Moradores do Parque Santa Mônica</h1>
         <h2 class="subtitle">São Carlos - SP</h2>
               </header>
-                <nav id="menu">
-                  <details > <summary>Menu (clique para abrir)</summary>
-                      <ol>
-                      <li><a href="./index.html"><strong>Apresentação</strong></a></li>
-                      <li><a href="./sobre-o-bairro.html"><strong>O bairro</strong>: infraestrutura, informações e fotos</a></li>
-                      <li><a href="./associacao-de-moradores.html"><strong>A associação</strong>: diretrizes, projetos e conquistas</a></li>
-                      <li><a href="./para-moradores.html"><strong>Para moradores</strong>: utilidades, comunicados e orientações</a></li>
-                      <li><a href="./contato.html"><strong>Contato</strong> e como se associar</a></li>
-                      <li><a href="./mapa-do-site.html"><strong>Mapa do site</strong></a></li>
-                      </ol>
-                  </details>
-                </nav>                      <nav id="submenu">
-                                  <details open=""> <summary>Sobre a Associação</summary>
-                                      <ol>
-                                      <li><a href="#apresentacao">Apresentação e principais conquistas</a></li>
-                                      <li><a href="#ambiental">Projetos ambientais</a></li>
-                                      <li><a href="#manutenção">Projetos de manutenção</a></li>
-                                      <li><a href="#segurança">Projetos de segurança</a></li>
-                                      <li><a href="#documentos">Documentos: comunicados, estatuto e prestação de contas</a></li>
-                                      </ol>
-                                  </details>
-                                </nav>            <p><em>!!Na sessão sobre o bairro a ideia é valorizar o resultado das ações enquanto nessa página a ideia é valorizar o trabalho dos membros para fomentar o auxílio de outros associados e o investimento financeiro de novos associados!!</em></p>
-                      <h2 id="apresentacao">Apresentação e principais conquistas</h2>
-                      <p>A Associação, presente no bairro desde meados de 2000, ocupa-se do auxílio à manutenção e ações de melhoria no bairro visando aprimorar a qualidade de vida dos moradores. O trabalho é feito de modo voluntário pelos associados, os quais atuam nos projetos de meio ambiente, manutenção, segurança e infraestrutura organizados na associação. Além disso, visa unir forças para representar os interesses dos moradores junto ao poder público. Suas principais conquistas desde a fundação são:</p>
-                      <ul>
-                      <li>implementação de câmeras que aprimoraram a segurança;</li>
-                      <li>revitalização da praça;</li>
-                      <li>pontos de coleta de lixo que favorecem a limpeza do bairro.</li>
-                      </ul>
-                      <p>Veja a seguir como esses resultados e os da sessão <a href="../sobre-o-bairro.html">sobre o bairro</a> são conseguidos. Atualmente cerca de 8 voluntarios desenvolvem os projetos – venha ajudar para construirmos um bairro melhor!</p>
-                      <h2 id="ambiental">Projetos ambientais</h2>
-                      <div class="center-icons">
-                      <i class="fa fa-tree icon" style="color: darkolivegreen;"></i><i class="fa fa-battery-quarter icon fa-rotate-270" style="color: darkorange; font-size: 200%;"></i>
-                      </div>
-                      <p>Recolhimento do material dos pontos fixos de descarte consciente. Reposição de saquinhos do pipicão. Podas.</p>
-                      <h2 id="manutenção">Projetos de infraestrutura e manutenção</h2>
-                      <div class="center-icons">
-                      <i class="fas fa-lightbulb icon" style="color: gold;"></i><i class="fas fa-trash-alt icon" style="color: cornflowerblue;"></i>
-                      </div>
-                      <p>Pintura dos postes com nomes das ruas. Solicitação de troca de lâmpada queimada.</p>
-                      <h2 id="segurança">Projetos de segurança</h2>
-                      <div class="center-icons">
-                      <i class="fas fa-motorcycle icon" style="color: firebrick; font-size: 275%;"></i><i class="fas fa-camera icon"></i>
-                      </div>
-                      <p>Contrato e supervisão com empresa prestadora de serviço dos vigias. Pagamento dos custos mensais (internet e luz) das câmeras. Planejamento de implantação da câmeras e expansão do número de pontos.</p>
-                      <h2 id="atividades-administrativas">Atividades administrativas</h2>
-                      <p>Reuniões da associação e comissões. Reuniões e elaboração de ofícios à prefeitura e outros órgãos competentes. Contato com prestadores de serviço. Elaboração de comunicados e atualização do site. Gestão financeira.</p>
-                      <h2 id="documentos">Documentos</h2>
-                      <details open>
-                      <summary>Comunicados (ano 2022)</summary>
-                      <ol>
-                      <li>
-                      <a href="./temp-images/202201-comunicado.pdf">Janeiro-n01</a>
-                      </li>
-                      </ol>
-                      </details>
-                      <details open>
-                      <summary>Estatuto e outros</summary>
-                      <ol>
-                      <li>
-                      <a href="./temp-images/ficha-cadastro.pdf">Ficha de associação</a>
-                      </li>
-                      <li>
-                      <a href="#">Estatuto</a>
-                      </li>
-                      <li>
-                      <a href="#">Prestação de contas - 1º Quadrimentes/2021</a>
-                      </li>
-                      </ol>
-                      </details>
+        <nav id="menu" >
+          <details open=""><summary>Menu</summary>
+            <ol>   <!-- Aumentar o espaçamento entre linhas no mobile!-->
+              <li>
+                  <a href="./index.html"><strong>Página inicial</strong>: apresentação e vídeo institucional</a></li>
+              <li>
+                  <a href="./sobre-o-bairro.html"><strong>O bairro</strong>: infraestrutura, informações e fotos</a></li>
+              <li>Sobre a Associação:
+                  <ul>
+                  <li><a href="#apresentacao">Apresentação e principais conquistas</a></li>
+                  <li><a href="#ambiental">Projetos ambientais</a></li>
+                  <li><a href="#manutenção">Projetos de manutenção</a></li>
+                  <li><a href="#segurança">Projetos de segurança</a></li>
+                  <li><a href="#documentos">Documentos: comunicados, estatuto e prestação de contas</a></li>
+                  </ul></li>
+              <li>
+                  <a href="./para-moradores.html"><strong>Para moradores</strong>: utilidades, comunicados e como se associar</a></li>
+              <li><a href="./contato.html"><strong>Contato</strong> e Mapa do site</a></li>
+            </ol>
+          </details>
+        </nav>  <p><em>!!Na sessão sobre o bairro a ideia é valorizar o resultado das ações enquanto nessa página a ideia é valorizar o trabalho dos membros para fomentar o auxílio de outros associados e o investimento financeiro de novos associados!!</em></p>
+        <h2 id="apresentacao">Apresentação e principais conquistas</h2>
+        <p>A Associação, presente no bairro desde meados de 2000, ocupa-se do auxílio à manutenção e ações de melhoria no bairro visando aprimorar a qualidade de vida dos moradores. O trabalho é feito de modo voluntário pelos associados, os quais atuam nos projetos de meio ambiente, manutenção, segurança e infraestrutura organizados na associação. Além disso, visa unir forças para representar os interesses dos moradores junto ao poder público. Suas principais conquistas desde a fundação são:</p>
+        <ul>
+        <li>implementação de câmeras que aprimoraram a segurança;</li>
+        <li>revitalização da praça;</li>
+        <li>pontos de coleta de lixo que favorecem a limpeza do bairro.</li>
+        </ul>
+        <p>Veja a seguir como esses resultados e os da sessão <a href="../sobre-o-bairro.html">sobre o bairro</a> são conseguidos. Atualmente cerca de 8 voluntarios desenvolvem os projetos – venha ajudar para construirmos um bairro melhor!</p>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="ambiental">Projetos ambientais</h2>
+        <div class="center-icons">
+        <i class="fa fa-tree icon" style="color: darkolivegreen;"></i><i class="fa fa-battery-quarter icon fa-rotate-270" style="color: darkorange; font-size: 200%;"></i>
+        </div>
+        <p>Recolhimento do material dos pontos fixos de descarte consciente. Reposição de saquinhos do pipicão. Podas.</p>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="manutenção">Projetos de infraestrutura e manutenção</h2>
+        <div class="center-icons">
+        <i class="fas fa-lightbulb icon" style="color: gold;"></i><i class="fas fa-trash-alt icon" style="color: cornflowerblue;"></i>
+        </div>
+        <p>Pintura dos postes com nomes das ruas. Solicitação de troca de lâmpada queimada.</p>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="segurança">Projetos de segurança</h2>
+        <div class="center-icons">
+        <i class="fas fa-motorcycle icon" style="color: firebrick; font-size: 275%;"></i><i class="fas fa-camera icon"></i>
+        </div>
+        <p>Contrato e supervisão com empresa prestadora de serviço dos vigias. Pagamento dos custos mensais (internet e luz) das câmeras. Planejamento de implantação da câmeras e expansão do número de pontos.</p>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="atividades-administrativas">Atividades administrativas</h2>
+        <p>Reuniões da associação e comissões. Reuniões e elaboração de ofícios à prefeitura e outros órgãos competentes. Contato com prestadores de serviço. Elaboração de comunicados e atualização do site. Gestão financeira.</p>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <h2 id="documentos">Documentos</h2>
+        <details open>
+        <summary>Comunicados (ano 2022)</summary>
+        <ol>
+        <li>
+        <a href="./temp-images/202201-comunicado.pdf">Janeiro-n01</a>
+        </li>
+        </ol>
+        </details>
+        <details open>
+        <summary>Estatuto e outros</summary>
+        <ol>
+        <li>
+        <a href="./temp-images/ficha-cadastro.pdf">Ficha de associação</a>
+        </li>
+        <li>
+        <a href="#">Estatuto</a>
+        </li>
+        <li>
+        <a href="#">Prestação de contas - 1º Quadrimentes/2021</a>
+        </li>
+        </ol>
+        </details>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
         <footer style="text-align: justify;">
         <p>© 2022 Associação de Moradores do Parque Santa Mônica, porém uso disponível sob licença livre <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Creative Commons BY-SA 4.0</a>, exceto para os conteúdos não originais desse site.
         Construído com <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a> pela própria Associação.</p>

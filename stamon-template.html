@@ -23,6 +23,8 @@ $for(css)$
 $endfor$
 $if(extra-css)$
   <link rel="stylesheet" href="$extra-css$" />
+$endif$
+$if(font-awesome)$
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 $endif$
 $if(math)$
@@ -38,7 +40,7 @@ $endfor$
 </head>
 <body>
   $if(logo)$
-  <img src="$logo$" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
+  <img id= "logo" src="$logo$" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
   $endif$
   $for(include-before)$
   $include-before$
@@ -65,20 +67,7 @@ $endfor$
   $if(pre-nav)$
     $pre-nav$
   $endif$
-  $if(nav-main)$
-    ${ include/nav-main.html() }
-  $endif$
-  $if(nav-sub)$
-    $if(nav-sobre)$
-      ${ include/nav-sobre.html() }
-    $endif$
-    $if(nav-assoc)$
-      ${ include/nav-assoc.html() }
-    $endif$
-    $if(nav-morad)$
-      ${ include/nav-morad.html() }
-    $endif$
-  $endif$
+  ${ include/nav.html() }
   $body$
   $for(include-after)$
   $include-after$

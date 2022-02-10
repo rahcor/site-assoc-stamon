@@ -8,9 +8,7 @@ subtitle: 'São Carlos - SP'
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
-nav-main: True
-nav-sub: True
-nav-morad: True
+morad-page: True
 ---
 
 ## Mural de recados
@@ -19,6 +17,7 @@ nav-morad: True
 * Recado 1
 * Recado 2
 
+[↥ Retornar ao menu](#logo)
 
 ## Previsão do tempo
 
@@ -28,6 +27,7 @@ nav-morad: True
   <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; " alt="Previsão do tempo. Fonte: CPTEC/INPE">
 </figure>
 
+[↥ Retornar ao menu](#logo)
 
 ## Guias e orientações
 
@@ -47,11 +47,13 @@ Orientações:
 * descarte de entulho de reforma;
 * separação de coleta seletiva;
 
+[↥ Retornar ao menu](#logo)
 
 ## Direitos e deveres dos associados
 
+[↥ Retornar ao menu](#logo)
 
 ## Eventos e pesquisas de opinião
 
-
+[↥ Retornar ao menu](#logo)
 

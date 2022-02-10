@@ -47,6 +47,36 @@ label {
  display: inline;
 }
 
+summary {
+ margin-bottom: 0px !important;
+}
+
+.sitemap li {
+ padding: 2px 0;
+ margin-bottom: 2px;
+}
+.sitemap li li{
+ padding: 0;
+ margin-bottom: 0;
+ padding-left: 3px;
+}
+
+
+li {
+ padding: 5px 0;
+ margin-bottom: 5px;
+}
+
+li li{
+ padding: 0;
+ margin-bottom: 2px;
+ padding-left: 5px;
+}
+
+ul {
+  margin-left: 15px;
+}
+
 .center {
  text-align: center;
 }
@@ -98,3 +128,12 @@ ul {padding-left: 1rem;}
       margin-left: 0em;
     }
 }
+
+
+.morad-markers ul > li:nth-child(1)::marker { content: '💬'; }
+.morad-markers ul > li:nth-child(2)::marker { content: '⛅'; }
+.morad-markers ul > li:nth-child(3)::marker { content: '📰'; }
+.morad-markers ul > li:nth-child(4)::marker { content: '🎯'; }
+.morad-markers ul > li:nth-child(5)::marker { content: '🎉'; }
+
+

@@ -8,9 +8,7 @@ subtitle: 'São Carlos - SP'
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
-nav-main: True
-nav-sub: True
-nav-sobre: True
+bairro-page: True
 ---
 
 ## Apresentação
@@ -20,6 +18,7 @@ Rodeado de bosques com uma flora exuberante que refresca e embeleza o bairro, al
 
 ![](temp-images/aerea.jpg "Vista aerea bairro"){ style="border-radius: 1em;" }
 
+[↥ Retornar ao menu](#title)
 
 ## Meio ambiente, infraestrutura e qualidade de vida{#meio-ambiente}
 Bosques repletos de árvores cercam o bairro, melhorando a qualidade de vida e o microclima do bairro.
@@ -36,6 +35,7 @@ Preservamos a natureza para possibilitar um futuro saudável aos nossos filhos e
 
 ![](temp-images/descarte-consciente.png "Ponto de descarte consciente"){ style="border-radius: 1em;" }
 
+[↥ Retornar ao menu](#logo)
 
 ## Segurança e iluminação{#seguranca}
 Aqui as ruas são seguras, pois são bem iluminadas e com ronda de vigilantes que auxiliam na entrada de residência, além de possuir câmeras de segurança de alta resolução ligadas 24h/dia.
@@ -43,10 +43,12 @@ Isso contribui para que esse bairro seja um dos mais seguros da cidade.
 
 ![](temp-images/seguranca.jpg "Ronda"){ style="border-radius: 1em;" }
 
+[↥ Retornar ao menu](#logo)
 
 ## História, curiosidades, fotos e vídeos{#historia-e-midias}
 História do bairro; Números do bairro (área, população, qtde de casas); História do Cristo; Presença da nascente; Fotos antigas; Fotos da fauna e flora; Fotos da infraestrutura; Vídeos;
 
+[↥ Retornar ao menu](#logo)
 
 ## Mapa interativo
 
@@ -59,4 +61,4 @@ História do bairro; Números do bairro (área, população, qtde de casas); His
 <!--  <a href="https://www.openstreetmap.org/#map=16/-22.0138/-47.9082">View Larger Map</a>-->
 <!--  </small>-->
 
-
+[↥ Retornar ao menu](#menu)
