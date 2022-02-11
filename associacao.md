@@ -9,12 +9,9 @@ logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
 assoc-page: True
-font-awesome: True
 ---
 
-
-_!!Na sessão sobre o bairro a ideia é valorizar o resultado das ações enquanto nessa página a ideia é valorizar o trabalho dos membros para fomentar o auxílio de outros associados e o investimento financeiro de novos associados!!_
-
+_Na sessão sobre o bairro foi mostrado o valor dos resultado das ações da associação, enquanto nessa página mostra-se o valor do trabalho dos associados e os custos envolvidos nas atividades para, com isso, fomentar a participação e o investimento financeiro de novos associados._
 
 
 ## Apresentação e principais conquistas{#apresentacao}
@@ -22,51 +19,52 @@ A Associação, presente no bairro desde meados de 2000, ocupa-se do auxílio à
 O trabalho é feito de modo voluntário pelos associados, os quais atuam nos projetos de meio ambiente, manutenção, segurança e infraestrutura organizados na associação.
 Além disso, visa unir forças para representar os interesses dos moradores junto ao poder público. Suas principais conquistas desde a fundação são:
 
-* implementação de câmeras que aprimoraram a segurança;
-* revitalização da praça;
+* câmeras que aprimoraram a segurança;
+* infraestrutura no entorno dos bosques, como iluminação e bancos, que modernizaram o bairro e provém mais uma opção de lazer; e
 * pontos de coleta de lixo que favorecem a limpeza do bairro.
 
-Veja a seguir como esses resultados e os da sessão [sobre o bairro](../sobre-o-bairro.html) são conseguidos.
-Atualmente cerca de 8 voluntarios desenvolvem os projetos -- venha ajudar para construirmos um bairro melhor!
+Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha ajudar para construirmos um bairro melhor!
 
 [↥ Retornar ao menu](#logo)
 
-## Projetos ambientais{#ambiental}
+## Atividades ambientais{#ambiental}
 
-<div class="center-icons"><i class="fa fa-tree icon" style="color: darkolivegreen;"></i><i class="fa fa-battery-quarter icon fa-rotate-270" style="color: darkorange; font-size: 200%;"></i></div>
+![](media/img/reciclagem.jpg "Ponto de descarte consciente"){ style="display: block; margin-left: auto; margin-right: auto; width: 70%;" }
 
-Recolhimento do material dos pontos fixos de descarte consciente.
-Reposição de saquinhos do pipicão.
-Podas.
-
-[↥ Retornar ao menu](#logo)
-
-## Projetos de infraestrutura e manutenção{#manutenção}
-
-<div class="center-icons"><i class="fas fa-lightbulb icon" style="color: gold;"></i><i class="fas fa-trash-alt icon" style="color: cornflowerblue;"></i></div>
-
-Pintura dos postes com nomes das ruas.
-Solicitação de troca de lâmpada queimada.
+* Recolhimento do material dos pontos fixos de descarte consciente.
+* Reposição de saquinhos de recolhimento de dejetos de pets.
+* Contratação de jardineiro para poda no perímetro dos bosques e praças quando a solicitação não é atendida pela prefeitura.
 
 [↥ Retornar ao menu](#logo)
 
-## Projetos de segurança{#segurança}
+## Atividades de infraestrutura e manutenção{#manutenção}
 
-<div class="center-icons"><i class="fas fa-motorcycle icon" style="color: firebrick; font-size: 275%;"></i><i class="fas fa-camera icon"></i></div>
+![](media/img/bosque-banco.jpg "Infraestrutura dos bosques, com bancos e lixeiras"){ style="display: block; margin-left: auto; margin-right: auto; width: 70%;" }
 
-Contrato e supervisão com empresa prestadora de serviço dos vigias.
-Pagamento dos custos mensais (internet e luz) das câmeras.
-Planejamento de implantação da câmeras e expansão do número de pontos.
+* Contratação de pintor para incluir nome das ruas nos postes.
+* Solicitação junto à prefeitura de troca de lâmpada queimada.
 
 [↥ Retornar ao menu](#logo)
 
-## Atividades administrativas
+## Atividades de segurança{#segurança}
 
-Reuniões da associação e comissões.
-Reuniões e elaboração de ofícios à prefeitura e outros órgãos competentes.
-Contato com prestadores de serviço.
-Elaboração de comunicados e atualização do site.
-Gestão financeira.
+![](media/img/camera.jpg "Camera"){ style="display: block; margin-left: auto; margin-right: auto; width: 50%;" }
+
+* Projeto de posicionamento das câmeras de segurança.
+* Contrato e supervisão com empresa prestadora de serviço da vigilância motorizada.
+* Operação da câmeras.
+
+[↥ Retornar ao menu](#logo)
+
+## Atividades administrativas{#administração}
+
+* Reuniões da associação e comissões.
+* Pagamento dos custos mensais (internet e luz) das câmeras.
+* Elaboração de ofícios à prefeitura e outros órgãos competentes.
+* Contato com prestadores de serviço.
+* Elaboração e emissão de comunicados
+* Atualização do site.
+* Gestão financeira.
 
 [↥ Retornar ao menu](#logo)
 
@@ -79,11 +77,11 @@ Gestão financeira.
 </details>
 
 <details open=""> <summary>Estatuto e outros</summary>
-  <ol>
+  <ul>
   <li><a href="./temp-images/ficha-cadastro.pdf">Ficha de associação</a></li>
-  <li><a href="#">Estatuto</a></li>
-  <li><a href="#">Prestação de contas - 1º Quadrimentes/2021</a></li>
-  </ol>
+  <li><a >Estatuto</a></li>
+  <li><a >Prestação de contas - 2021Q1</a></li>
+  </ul>
 </details>
 
 [↥ Retornar ao menu](#logo)

@@ -17,28 +17,39 @@ morad-page: True
 * Recado 1
 * Recado 2
 
+<details open=""> <summary>Como se associar</summary>
+Enviar os dados da ficha para o e-mail da associação.
+</details>
+
 [↥ Retornar ao menu](#logo)
 
 ## Previsão do tempo
 
 <!--![Chuva agora. Fonte: IPMET/UNESP](https://www.ipmetradar.com.br/img-ppi/ppi-anim.gif)-->
 
-<figure style="text-align: center; overflow:hidden; border-radius: 1em;">
-  <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; " alt="Previsão do tempo. Fonte: CPTEC/INPE">
+<figure style="text-align: center; overflow:hidden;">
+  <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; border-radius: 0em !important;" alt="Previsão do tempo. Fonte: CPTEC/INPE">
 </figure>
 
 [↥ Retornar ao menu](#logo)
 
-## Guias e orientações
+## Guias e orientações{#orientacoes}
 
-!!_Guias e orientações para os moradores contribuirem com a manutenção geral do bairro_!!
+_Guias e orientações para os moradores contribuirem com a manutenção geral do bairro_
 
 O que faço em caso de:
 
-* poste com luz queimada;
-* atitude suspeita;
-* vazamento de água na rua;
-* lixo em via pública;
+<details> <summary>poste com luz queimada</summary>
+Preencher a ficha e enviar à associação para ser encaminhada ao setor resposável na prefeitura.
+</details>
+<details> <summary>atitude suspeita</summary>
+Comunicar o vigilante e a polícia.
+</details>
+<details> <summary>vazamento de água na rua</summary>
+Entrar em contato com SAAE no e-mail ou telefone informando o local do vazamento.
+</details>
+<details> <summary>encontrar lixo em via pública</summary>
+</details>
 
 Orientações:
 
@@ -49,11 +60,11 @@ Orientações:
 
 [↥ Retornar ao menu](#logo)
 
-## Direitos e deveres dos associados
+## Direitos e deveres dos associados{#direitos-e-deveres}
 
 [↥ Retornar ao menu](#logo)
 
-## Eventos e pesquisas de opinião
+<!--## Eventos e pesquisas de opinião-->
 
-[↥ Retornar ao menu](#logo)
+<!--[↥ Retornar ao menu](#logo)-->
 

@@ -9,7 +9,6 @@
     <title>Associação de Moradores do Parque Santa Mônica</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css" />
   <link rel="stylesheet" href="./src/stamonica.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 </head>
 <body>
     <img id= "logo" src="./src/logo.png" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
@@ -18,33 +17,34 @@
         <h2 class="subtitle">São Carlos - SP</h2>
               </header>
         <nav id="menu" class="sitemap">
-          <details open=""><summary>Menu (mapa do site)</summary>
-            <ol>   <!-- Aumentar o espaçamento entre linhas no mobile!-->
+          <details open=""><summary>Menu completo (mapa do site)</summary>
+            <ol>
               <li>
                   <a href="./index.html"><strong>Página inicial</strong>: apresentação e vídeo institucional</a></li>
               <li><a href="./sobre-o-bairro.html">Sobre o bairro:</a>
                   <ul>
-                  <li><a href="./sobre-o-bairro.html#apresentacao">Apresentação</a></li>
-                  <li><a href="./sobre-o-bairro.html#meio-ambiente">Meio ambiente e qualidade de vida</li>
-                  <li><a href="./sobre-o-bairro.html#seguranca">Segurança, iluminação e infraestrutura</a></li>
-                  <li><a href="./sobre-o-bairro.html#historia-e-midias">História, curiosidades, fotos e vídeos</a></li>
+                  <li><a href="./sobre-o-bairro.html#apresentação">Apresentação</a></li>
+                  <li><a href="./sobre-o-bairro.html#meio-ambiente">Meio ambiente, infraestrutura e qualidade de vida</a></li>
+                  <li><a href="./sobre-o-bairro.html#seguranca">Segurança e iluminação</a></li>
+        <!--          <li><a href="./sobre-o-bairro.html#historia-e-midias">História, curiosidades, fotos e vídeos</a></li>-->
                   <li><a href="./sobre-o-bairro.html#mapa-interativo">Mapa interativo</a></li>
                   </ul></li>
               <li><a href="./associacao-de-moradores.html">Sobre a Associação:</a>
                   <ul>
                   <li><a href="./associacao-de-moradores.html#apresentacao">Apresentação e principais conquistas</a></li>
-                  <li><a href="./associacao-de-moradores.html#ambiental">Projetos ambientais</a></li>
-                  <li><a href="./associacao-de-moradores.html#manutenção">Projetos de manutenção</a></li>
-                  <li><a href="./associacao-de-moradores.html#segurança">Projetos de segurança</a></li>
-                  <li><a href="./associacao-de-moradores.html#documentos">Documentos: comunicados, estatuto e prestação de contas</a></li>
+                  <li><a href="./associacao-de-moradores.html#ambiental">Atividades ambientais</a></li>
+                  <li><a href="./associacao-de-moradores.html#manutenção">Atividades de infraestrutura e manutenção</a></li>
+                  <li><a href="./associacao-de-moradores.html#segurança">Atividades de segurança</a></li>
+                  <li><a href="./associacao-de-moradores.html#administração">Atividades administrativas</a></li>
+                  <li><a href="./associacao-de-moradores.html#documentos">Estatuto e documentos</a></li>
                   </ul></li>
-              <li><a href="./para-moradores.html">Para moradores:</a>
+              <li class="morad-markers"><a href="./para-moradores.html">Para moradores:</a>
                   <ul>
                   <li><a href="./para-moradores.html#mural-de-recados">Mural de recados</a></li>
-                  <li><a href="./para-moradores.html#previsao-do-tempo">Previsão do tempo</a></li>
-                  <li><a href="./para-moradores.html#guias-e-orientacoes.html">Guias e orientações</></li>
+                  <li><a href="./para-moradores.html#previsão-do-tempo">Previsão do tempo</a></li>
+                  <li><a href="./para-moradores.html#orientacoes">Guias e orientações</a></li>
                   <li><a href="./para-moradores.html#direitos-e-deveres">Direitos e deveres dos associados</a></li>
-                  <li><a href="./para-moradores.html#eventos.html">Eventos</a></li>
+        <!--          <li><a href="./para-moradores.html#eventos.html">Eventos e pesquisas de opinião</a></li>-->
                   </ul></li>
               <li>Contato e mapa do site</li>
             </ol>
@@ -57,7 +57,7 @@
         <div>
         <input type="checkbox" id="noticias" name="noticias"><label class="noticias" for="noticias"> ← Marque para receber atualizações por e-mail.</label>
         </div>
-        <button type="submit" class="btn btn--large btn--link custom" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar<i class="fas fa-hand-pointer clicable" style="font-size: 0.9em; margin-left: 0.5em; vertical-align: baseline;"></i></button>
+        <button type="submit" class="btn btn--large btn--link custom" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar <span style="font-size: 1.25em; margin-left: 0.5em; vertical-align: baseline;">🖅</span></button>
         </form>
         <footer style="text-align: justify;">
         <p>© 2022 Associação de Moradores do Parque Santa Mônica, porém uso disponível sob licença livre <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Creative Commons BY-SA 4.0</a>, exceto para os conteúdos não originais desse site.

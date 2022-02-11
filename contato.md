@@ -8,7 +8,6 @@ subtitle: 'São Carlos - SP'
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
-font-awesome: True
 site-map: True
 bairro-page: True
 assoc-page: True
@@ -26,9 +25,6 @@ morad-page: True
   <div>
   <input type="checkbox" id="noticias" name="noticias"><label class="noticias" for="noticias"> ← Marque para receber atualizações por e-mail.</label>
   </div>
-  <button type="submit" class="btn btn--large btn--link custom" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar<i class="fas fa-hand-pointer clicable" style="font-size: 0.9em; margin-left: 0.5em; vertical-align: baseline;"></i></button>
+  <button type="submit" class="btn btn--large btn--link custom" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar <span style="font-size: 1.25em; margin-left: 0.5em; vertical-align: baseline;">🖅</span></button>
 </form>
-
-
-
 

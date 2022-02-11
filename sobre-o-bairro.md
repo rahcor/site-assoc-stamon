@@ -9,6 +9,7 @@ logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
 bairro-page: True
+font-awesome: True
 ---
 
 ## Apresentação
@@ -16,9 +17,9 @@ Localizado próximo ao centro, SESC e Shopping, o bairro é composto de residên
 Rodeado de bosques com uma flora exuberante que refresca e embeleza o bairro, além de promover a visita de visitantes ilustres da fauna como tucanos, andorinhas e teiús.
 É um bairro que oferece uma qualidade de vida ímpar!
 
-![](temp-images/aerea.jpg "Vista aerea bairro"){ style="border-radius: 1em;" }
+![](media/img/aerea.jpg "Vista aerea bairro")
 
-[↥ Retornar ao menu](#title)
+[↥ Retornar ao menu](#logo)
 
 ## Meio ambiente, infraestrutura e qualidade de vida{#meio-ambiente}
 Bosques repletos de árvores cercam o bairro, melhorando a qualidade de vida e o microclima do bairro.
@@ -26,29 +27,36 @@ Também proporciona um local para que a fauna e flora convivam em harmonia com o
 Há bancos de descanso e postes de iluminação no perimetro dos bosques.
 As casas que compõem o bairro também possuem diversas áreas verdes em seus jardins e suas calçadas.
 
-![](temp-images/praca.jpg "Bosque do bairro"){ style="border-radius: 1em;" }
+
+![](media/img/rua-bosque.jpg "Bosque do bairro"){ style="display: block; margin-left: auto; margin-right: auto; width: 50%;" }
+
+<div class="center-icons"><i class="fa fa-tree icon" style="color: darkolivegreen;"></i><i class="fa fa-battery-quarter icon fa-rotate-270" style="color: darkorange; font-size: 200%;"></i></div>
 
 Para manter a limpeza do ambiente, há lixeiras e pontos de saquinho de coleta de dejetos de animais disponíveis no entorno dos bosques.
 Há passagem de coleta seletiva e pontos fíxos de descarte consciente para esponja, pilhas e óleo de cozinha.
 Com isso favorecendo a sustentabilidade e a limpeza das ruas do bairro.
-Preservamos a natureza para possibilitar um futuro saudável aos nossos filhos e netos.
+Preservamos a natureza para possibilitar um futuro saudável aos nossos filhos e netos!
 
-![](temp-images/descarte-consciente.png "Ponto de descarte consciente"){ style="border-radius: 1em;" }
+![](media/img/reciclagem.jpg "Ponto de descarte consciente"){ style="display: block; margin-left: auto; margin-right: auto; width: 70%;" }
+
+<!--<div class="center-icons"><i class="fas fa-trash-alt icon" style="color: cornflowerblue;"></i></div>-->
 
 [↥ Retornar ao menu](#logo)
 
 ## Segurança e iluminação{#seguranca}
 Aqui as ruas são seguras, pois são bem iluminadas e com ronda de vigilantes que auxiliam na entrada de residência, além de possuir câmeras de segurança de alta resolução ligadas 24h/dia.
-Isso contribui para que esse bairro seja um dos mais seguros da cidade.
+Isso contribui para que esse bairro seja um dos mais seguros da cidade!
 
-![](temp-images/seguranca.jpg "Ronda"){ style="border-radius: 1em;" }
+<div class="center-icons"><i class="fas fa-camera icon"></i><i class="fas fa-motorcycle icon" style="color: firebrick; font-size: 275%;"></i><i class="fas fa-lightbulb icon" style="color: gold;"></i></div>
 
-[↥ Retornar ao menu](#logo)
-
-## História, curiosidades, fotos e vídeos{#historia-e-midias}
-História do bairro; Números do bairro (área, população, qtde de casas); História do Cristo; Presença da nascente; Fotos antigas; Fotos da fauna e flora; Fotos da infraestrutura; Vídeos;
+![](media/img/seguranca.jpg "Ronda")
 
 [↥ Retornar ao menu](#logo)
+
+<!--## História, curiosidades, fotos e vídeos{#historia-e-midias}-->
+<!--História do bairro; Números do bairro (área, população, qtde de casas); História do Cristo; Presença da nascente; Fotos antigas; Fotos da fauna e flora; Fotos da infraestrutura; Vídeos;-->
+
+<!--[↥ Retornar ao menu](#logo)-->
 
 ## Mapa interativo
 
@@ -56,9 +64,6 @@ História do bairro; Números do bairro (área, população, qtde de casas); His
   frameborder="0" scrolling="no"
   marginheight="0" marginwidth="0"
   src="https://www.openstreetmap.org/export/embed.html?bbox=-47.915410995483406%2C-22.021442452415908%2C-47.900948524475105%2C-22.006164421081195&amp;layer=mapnik" >
-  </iframe><br/>
-<!--  <small>-->
-<!--  <a href="https://www.openstreetmap.org/#map=16/-22.0138/-47.9082">View Larger Map</a>-->
-<!--  </small>-->
+  </iframe>
 
-[↥ Retornar ao menu](#menu)
+[↥ Retornar ao menu](#logo)
