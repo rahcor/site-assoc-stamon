@@ -30,7 +30,7 @@ A Associação de Moradores do Parque Santa Mônica realiza atividades diversas 
 
 **Participe e ajude a construir um bairro cada vez melhor!**
 
-Para se associar, basta preencher a ficha (clique aqui) e enviar para o e-mail da associação.
+Para se associar, basta preencher a ficha ([clique aqui](./para-moradores.html#associar)).
 :::
 
 

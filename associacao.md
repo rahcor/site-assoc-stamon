@@ -25,7 +25,7 @@ Além disso, visa unir forças para representar os interesses dos moradores junt
 
 Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha ajudar para construirmos um bairro melhor!
 
-[↥ Retornar ao menu](#logo)
+[↥ _Retornar ao menu_](#logo)
 
 ## Atividades ambientais{#ambiental}
 
@@ -35,7 +35,7 @@ Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha 
 * Reposição de saquinhos de recolhimento de dejetos de pets.
 * Contratação de jardineiro para poda no perímetro dos bosques e praças quando a solicitação não é atendida pela prefeitura.
 
-[↥ Retornar ao menu](#logo)
+[↥ _Retornar ao menu_](#logo)
 
 ## Atividades de infraestrutura e manutenção{#manutenção}
 
@@ -44,7 +44,7 @@ Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha 
 * Contratação de pintor para incluir nome das ruas nos postes.
 * Solicitação junto à prefeitura de troca de lâmpada queimada.
 
-[↥ Retornar ao menu](#logo)
+[↥ _Retornar ao menu_](#logo)
 
 ## Atividades de segurança{#segurança}
 
@@ -54,7 +54,7 @@ Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha 
 * Contrato e supervisão com empresa prestadora de serviço da vigilância motorizada.
 * Operação da câmeras.
 
-[↥ Retornar ao menu](#logo)
+[↥ _Retornar ao menu_](#logo)
 
 ## Atividades administrativas{#administração}
 
@@ -66,7 +66,7 @@ Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha 
 * Atualização do site.
 * Gestão financeira.
 
-[↥ Retornar ao menu](#logo)
+[↥ _Retornar ao menu_](#logo)
 
 ## Documentos{#documentos}
 
@@ -84,5 +84,14 @@ Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha 
   </ul>
 </details>
 
-[↥ Retornar ao menu](#logo)
+[↥ _Retornar ao menu_](#logo)
 
+## Composição da diretoria{#diretoria}
+
+--------------------- -----------
+Presidente            Pessoa1
+Vice-presidente       Pessoa2
+Tesoureiro             
+--------------------- -----------
+
+[↥ _Retornar ao menu_](#logo)

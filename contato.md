@@ -16,15 +16,16 @@ morad-page: True
 
 ## Contato{.center}
 
+:::{.center}
+E-mail: email@email.com.br / Telefone (16) 99999-9999
+:::
+
 <form action="" method="POST" target="_blank" style="margin-top: -1em; margin-bottom: 2em; padding-top: 0.7em; padding-bottom: 0.75em;"><input type="hidden" name="_language" value="pt-BR">
   <label>Seu e-mail:<input type="text" name="email" style="width: 62%;">
   </label><br>
   <label>Sua mensagem:
     <textarea name="message"></textarea>
   </label>
-  <div>
-  <input type="checkbox" id="noticias" name="noticias"><label class="noticias" for="noticias"> ← Marque para receber atualizações por e-mail.</label>
-  </div>
-  <button type="submit" class="btn btn--large btn--link custom" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar <span style="font-size: 1.25em; margin-left: 0.5em; vertical-align: baseline;">🖅</span></button>
+  <button type="submit" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
 </form>
 

@@ -10,6 +10,7 @@ favicon: './favicon.ico'
 footer: True
 bairro-page: True
 font-awesome: True
+leaflet: True
 ---
 
 ## Apresentação
@@ -60,10 +61,79 @@ Isso contribui para que esse bairro seja um dos mais seguros da cidade!
 
 ## Mapa interativo
 
-<iframe class="map" 
-  frameborder="0" scrolling="no"
-  marginheight="0" marginwidth="0"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-47.915410995483406%2C-22.021442452415908%2C-47.900948524475105%2C-22.006164421081195&amp;layer=mapnik" >
-  </iframe>
+<div id="map"></div>
+<script>
+    var cities = L.layerGroup();
+    var lixeiras = L.layerGroup();
+    var bosques = L.layerGroup();
+
+	var mLittleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities);
+	var mDenver = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities);
+	var mAurora = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities);
+	var mGolden = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
+
+    var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
+	var mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+	var grayscale = L.tileLayer(mbUrl, {id: 'mapbox/light-v9', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
+	var streets = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
+
+    var map = L.map('map', {
+		center: [-22.013138, -47.905626],
+		zoom: 15,
+		layers: [streets, cities]
+	});
+
+    var baseLayers = {
+		'Streets': streets,
+		'Grayscale': grayscale
+	};
+
+	var overlays = {
+		'Cities': cities,
+		'Lixeiras': lixeiras,
+		'Bosques': bosques,
+	};
+
+	var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
+
+	var marker = L.marker([-22.017, -47.910]).addTo(map)
+		.bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup().addTo(cities);
+
+	var circle = L.circle([-22.01, -47.905], {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5,
+		radius: 150
+	}).addTo(map).bindPopup('I am a circle.').addTo(cities);
+
+	var polygon = L.polygon([
+		[-22.0136, -47.909],
+		[-22.0138, -47.906],
+		[-22.0132, -47.902]
+	]).addTo(map).bindPopup('I am a polygon.').addTo(cities);
+
+
+	var popup = L.popup()
+		.setLatLng([-22.0128, -47.902])
+		.setContent('I am a standalone popup.')
+		.openOn(map).addTo(cities);
+
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			.setContent('You clicked the map at ' + e.latlng.toString())
+			.openOn(map);
+	}
+
+	map.on('click', onMapClick);
+
+</script>
+
+<!--<iframe class="map" -->
+<!--  frameborder="0" scrolling="no"-->
+<!--  marginheight="0" marginwidth="0"-->
+<!--  src="https://www.openstreetmap.org/export/embed.html?bbox=-47.915410995483406%2C-22.021442452415908%2C-47.900948524475105%2C-22.006164421081195&amp;layer=mapnik" >-->
+<!--  </iframe>-->
 
 [↥ Retornar ao menu](#logo)
