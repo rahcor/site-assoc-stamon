@@ -20,16 +20,18 @@
           <details open=""><summary>Menu</summary>
             <ol>
               <li>
-                  <a href="./index.html"><strong>Página inicial</strong>: apresentação e vídeo institucional</a></li>
+                  <a href="./index.html"><strong>Página inicial</strong>: apresentação e vídeo</a></li>
               <li>
-                  <a href="./sobre-o-bairro.html"><strong>O bairro</strong>: infraestrutura, informações e fotos</a></li>
+                  <a href="./sobre-o-bairro.html"><strong>O bairro</strong>: qualidade de vida, informações e fotos</a></li>
               <li>
-                  <a href="./associacao-de-moradores.html"><strong>A associação</strong>: diretrizes, projetos e conquistas</a></li>
+                  <a href="./associacao-de-moradores.html"><strong>A associação</strong>: projetos e conquistas</a></li>
               <li class="morad-markers">Para moradores:
                   <ul>
                   <li><a href="#mural-de-recados">Mural de recados</a></li>
                   <li><a href="#previsão-do-tempo">Previsão do tempo</a></li>
-                  <li><a href="#orientacoes">Guias e orientações</a></li>
+                  <li><a href="#guias-e-ocorrencias">Guias e orientações</a></li>
+                  <li><a href="#ocorrencias">Reportar ocorrencias</a></li>
+                  <li><a href="#associe-se">Como se associar</a></li>
                   <li><a href="#direitos-e-deveres">Direitos e deveres dos associados</a></li>
         <!--          <li><a href="#eventos.html">Eventos e pesquisas de opinião</a></li>-->
                   </ul></li>
@@ -40,48 +42,91 @@
         <ul>
         <li><a href="./temp-images/202201-comunicado.pdf">Último comunicado</a></li>
         <li>Recado 1</li>
-        <li>Recado 2</li>
+        <li>Para se associar, basta preencher a ficha (<a href="#associar">clique aqui</a>).</li>
         </ul>
-        <details open>
-        <summary>Como se associar</summary> Enviar os dados da ficha para o e-mail da associação.
-        </details>
-        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
         <h2 id="previsão-do-tempo">Previsão do tempo</h2>
         <!--![Chuva agora. Fonte: IPMET/UNESP](https://www.ipmetradar.com.br/img-ppi/ppi-anim.gif)-->
         <figure style="text-align: center; overflow:hidden;">
         <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; border-radius: 0em !important;" alt="Previsão do tempo. Fonte: CPTEC/INPE">
         </figure>
-        <p><a href="#logo">↥ Retornar ao menu</a></p>
-        <h2 id="orientacoes">Guias e orientações</h2>
-        <p><em>Guias e orientações para os moradores contribuirem com a manutenção geral do bairro</em></p>
-        <p>O que faço em caso de:</p>
+        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
+        <h2 id="guias-e-orientacoes">Guias e orientações</h2>
+        <!--_Guias e orientações para os moradores contribuirem com a manutenção geral do bairro_-->
+        <p>O que faço em caso de…</p>
         <details>
-        <summary>poste com luz queimada</summary> Preencher a ficha e enviar à associação para ser encaminhada ao setor resposável na prefeitura.
+        <summary class="summary-closed">poste com luz queimada</summary> Preencher a ficha e enviar à associação para ser encaminhada ao setor resposável na prefeitura.
         </details>
         <details>
-        <summary>atitude suspeita</summary> Comunicar o vigilante e a polícia.
+        <summary class="summary-closed">atitude suspeita</summary> Comunicar o vigilante e a polícia.
         </details>
         <details>
-        <summary>vazamento de água na rua</summary> Entrar em contato com SAAE no e-mail ou telefone informando o local do vazamento.
+        <summary class="summary-closed">vazamento de água na rua</summary> Entrar em contato com SAAE no e-mail ou telefone informando o local do vazamento.
         </details>
         <details>
-        <summary>encontrar lixo em via pública</summary>
+        <summary class="summary-closed">encontrar lixo em via pública</summary>
         </details>
         <p>Orientações:</p>
+        <details>
+        <summary class="summary-closed">sugestões de segurança</summary> * Realize manutenção preventiva em sua cerca elétrica<br />
+        * Atenção ao sair de casa<br />
+        * Chame o vigia para auxiliá-lo na entrada e saida da residência
+        </details>
         <ul>
-        <li>sugestões de segurança;</li>
         <li>descarte de jardinagem;</li>
         <li>descarte de entulho de reforma;</li>
         <li>separação de coleta seletiva;</li>
         </ul>
-        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
+        <h1 id="ocorrencias">Reportar ocorrências</h1>
+        <p><em>Por favor, use o formulário abaixo para reportar ocorrências.</em></p>
+        <form id="ocorrencias">
+        <label>Encontrei:</label>
+        <div>
+        <p><input type="radio" id="lixeira" name="ocorrencia" value="lixeira" checked><label for="john">Lixeira cheia</label></p>
+        </div>
+        <div>
+        <p><input type="radio" id="mato" name="ocorrencia" value="mato" checked> <label for="jane">Mata dos bosques ou praça muito grande</label></p>
+        </div>
+        <div>
+        <p><input type="radio" id="arvore" name="ocorrencia" value="arvore" checked> <label for="johnny">Árvore em risco de queda</label></p>
+        </div>
+        <div>
+        <p><input type="radio" id="outros" name="ocorrencia" value="outros" checked> <label for="johnny">Outros (por favor, informe nas observações)</label></p>
+        </div>
+        <br>
+        <textarea name="sobre" id="sobre" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></textarea>
+        <input type="submit" value="Enviar">
+        </form>
+        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
+        <h1 id="associar">Como se associar</h1>
+        <p>Para se associar, por favor preencha a ficha abaixo e aguarde contato da associação para colher assinatura:</p>
+        <form id="associar" action method="POST" target="_blank">
+        <input type="hidden" name="_language" value="pt-BR"> <label>Nome:<input type="text" name="nome" style="width: 49%;"> </label> <label>Rua que mora:<input type="text" name="nome" style="width: 49%;"> </label><br> <label>E-mail:<input type="text" name="nome" style="width: 49%;"> </label> <label>Telefone:<input type="text" name="nome" style="width: 49%;"> </label><br> <label>Observações:
+        <textarea name="message"></textarea>
+        </label>
+        <div>
+        <input type="checkbox" id="noticias" name="noticias"><label class="noticias" for="noticias"> ← Declaro que desejo fazer parte do quadro de associados da Associação….</label>
+        </div>
+        <div>
+        <label>Prefiro receber o Boleto referente ao pagamento da Contribuição Mensal por:</label>
+        <div>
+        <input type="radio" id="correio" name="boleto" value="correio" checked><label for="correio">correio</label>
+        </div>
+        <div>
+        <input type="radio" id="mail" name="boleto" value="mail" checked> <label for="mail">e-mail</label>
+        </div>
+        </div>
+        <button type="submit" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
+        </form>
+        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
         <h2 id="direitos-e-deveres">Direitos e deveres dos associados</h2>
-        <p><a href="#logo">↥ Retornar ao menu</a></p>
+        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
         <!--## Eventos e pesquisas de opinião-->
-        <!--[↥ Retornar ao menu](#logo)-->
+        <!--[↥ _Retornar ao menu_](#logo)-->
         <footer style="text-align: justify;">
         <p>© 2022 Associação de Moradores do Parque Santa Mônica, porém uso disponível sob licença livre <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Creative Commons BY-SA 4.0</a>, exceto para os conteúdos não originais desse site.
-        Construído com <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a> pela própria Associação.</p>
+        Construído com <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a> pela própria Associação.</p><!--RRM-->
         <details> <summary>Aviso legal</summary>
           <p>Os materiais contidos neste site são fornecidos apenas para fins de informação geral e não pretendem ser ou constituem conselhos legais ou outros profissionais e não devem ser invocados como tal. Não nos responsabilizamos por qualquer perda que possa surgir do acesso a este site nem pela dependência de informações encontradas no site. Na maior medida permitida pela lei, excluímos toda a responsabilidade por perdas ou danos diretos ou indiretos decorrentes do uso deste site.</p> 
         </details>
