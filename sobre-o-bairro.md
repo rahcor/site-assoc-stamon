@@ -10,26 +10,25 @@ favicon: './favicon.ico'
 footer: True
 bairro-page: True
 font-awesome: True
-leaflet: True
 ---
 
-## Apresentação
+## Apresentação{#apresentacao}
 Localizado próximo ao centro, SESC e Shopping, o bairro é composto de residências cercadas de ruas seguras e iluminadas, nas quais os moradores fazem atividades físicas e passeiam com seus pets.
 Rodeado de bosques com uma flora exuberante que refresca e embeleza o bairro, além de promover a visita de visitantes ilustres da fauna como tucanos, andorinhas e teiús.
 É um bairro que oferece uma qualidade de vida ímpar!
 
-![](media/img/aerea.jpg "Vista aerea bairro")
+![](media/img/aerea.jpg "Vista aerea bairro"){.responsive}
 
 [↥ Retornar ao menu](#logo)
 
-## Meio ambiente, infraestrutura e qualidade de vida{#meio-ambiente}
+## Meio ambiente, infraestrutura e qualidade de vida{#qualidade-de-vida}
 Bosques repletos de árvores cercam o bairro, melhorando a qualidade de vida e o microclima do bairro.
 Também proporciona um local para que a fauna e flora convivam em harmonia com os moradores.
 Há bancos de descanso e postes de iluminação no perimetro dos bosques.
 As casas que compõem o bairro também possuem diversas áreas verdes em seus jardins e suas calçadas.
 
 
-![](media/img/rua-bosque.jpg "Bosque do bairro"){ style="display: block; margin-left: auto; margin-right: auto; width: 50%;" }
+![](media/img/rua-bosque.jpg "Bosque do bairro"){ style="display: block; margin-left: auto; margin-right: auto; width: 50%;"  .responsive}
 
 <div class="center-icons"><i class="fa fa-tree icon" style="color: darkolivegreen;"></i><i class="fa fa-battery-quarter icon fa-rotate-270" style="color: darkorange; font-size: 200%;"></i></div>
 
@@ -38,7 +37,7 @@ Há passagem de coleta seletiva e pontos fíxos de descarte consciente para espo
 Com isso favorecendo a sustentabilidade e a limpeza das ruas do bairro.
 Preservamos a natureza para possibilitar um futuro saudável aos nossos filhos e netos!
 
-![](media/img/reciclagem.jpg "Ponto de descarte consciente"){ style="display: block; margin-left: auto; margin-right: auto; width: 70%;" }
+![](media/img/reciclagem.jpg "Ponto de descarte consciente"){ style="display: block; margin-left: auto; margin-right: auto; width: 70%;"  .responsive}
 
 <!--<div class="center-icons"><i class="fas fa-trash-alt icon" style="color: cornflowerblue;"></i></div>-->
 
@@ -50,7 +49,7 @@ Isso contribui para que esse bairro seja um dos mais seguros da cidade!
 
 <div class="center-icons"><i class="fas fa-camera icon"></i><i class="fas fa-motorcycle icon" style="color: firebrick; font-size: 275%;"></i><i class="fas fa-lightbulb icon" style="color: gold;"></i></div>
 
-![](media/img/seguranca.jpg "Ronda")
+![](media/img/seguranca.jpg "Ronda"){.responsive}
 
 [↥ Retornar ao menu](#logo)
 
@@ -59,81 +58,14 @@ Isso contribui para que esse bairro seja um dos mais seguros da cidade!
 
 <!--[↥ Retornar ao menu](#logo)-->
 
-## Mapa interativo
+## Localização{#localizacao}
 
-<div id="map"></div>
-<script>
-    var cities = L.layerGroup();
-    var lixeiras = L.layerGroup();
-    var bosques = L.layerGroup();
-
-	var mLittleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities);
-	var mDenver = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities);
-	var mAurora = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities);
-	var mGolden = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
-
-    var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
-	var mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
-
-	var grayscale = L.tileLayer(mbUrl, {id: 'mapbox/light-v9', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
-	var streets = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
-
-    var map = L.map('map', {
-		center: [-22.013138, -47.905626],
-		zoom: 15,
-		layers: [streets, cities]
-	});
-
-    var baseLayers = {
-		'Streets': streets,
-		'Grayscale': grayscale
-	};
-
-	var overlays = {
-		'Cities': cities,
-		'Lixeiras': lixeiras,
-		'Bosques': bosques,
-	};
-
-	var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
-
-	var marker = L.marker([-22.017, -47.910]).addTo(map)
-		.bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup().addTo(cities);
-
-	var circle = L.circle([-22.01, -47.905], {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5,
-		radius: 150
-	}).addTo(map).bindPopup('I am a circle.').addTo(cities);
-
-	var polygon = L.polygon([
-		[-22.0136, -47.909],
-		[-22.0138, -47.906],
-		[-22.0132, -47.902]
-	]).addTo(map).bindPopup('I am a polygon.').addTo(cities);
-
-
-	var popup = L.popup()
-		.setLatLng([-22.0128, -47.902])
-		.setContent('I am a standalone popup.')
-		.openOn(map).addTo(cities);
-
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent('You clicked the map at ' + e.latlng.toString())
-			.openOn(map);
-	}
-
-	map.on('click', onMapClick);
-
-</script>
-
-<!--<iframe class="map" -->
-<!--  frameborder="0" scrolling="no"-->
-<!--  marginheight="0" marginwidth="0"-->
-<!--  src="https://www.openstreetmap.org/export/embed.html?bbox=-47.915410995483406%2C-22.021442452415908%2C-47.900948524475105%2C-22.006164421081195&amp;layer=mapnik" >-->
-<!--  </iframe>-->
+<iframe class="map" 
+  frameborder="0" scrolling="no"
+  marginheight="0" marginwidth="0"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-47.915410995483406%2C-22.021442452415908%2C-47.900948524475105%2C-22.006164421081195&amp;layer=mapnik" >
+</iframe>
 
 [↥ Retornar ao menu](#logo)
+
+

@@ -9,119 +9,123 @@ logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
 morad-page: True
+leaflet: True
 ---
 
-## Mural de recados
+## Comunicados e orientações{#comunicados}
 
-* [Último comunicado](./temp-images/202201-comunicado.pdf)
-* Recado 1
-* Para se associar, basta preencher a ficha ([clique aqui](#associar)).
+<!--<details style="margin-bottom: 1em;" open=""> <summary class="summary-closed">Comunicados anteriores</summary>-->
+Comunicados:
+  <ul style="margin-bottom: 1.5em;">
+  <li><a href="./media/comunicados2022/comunicado20220110.pdf">Janeiro/2022 -- Projetos e ações realizados em 2021 e futuras</a></li>
+  <li><a href="./media/comunicados2022/comunicado-acoes2021.pdf">10/Janeiro/2022 -- Reajuste na contribuição mensal</a></li>
+  <li><a href="./media/comunicados2022/comunicado20220201.pdf">01/Fevereiro/2022 -- Ações iniciadas em 2022</a></li>
+  </ul>
+<!--</details>-->
+
+Orientações (clique no item para detalhar):
+<details> <summary class="summary-closed">Como se associar</summary>
+<p>Para se associar, basta preencher a ficha (<a href="./associacao-de-moradores.html#associe-se" target="_blank">clique aqui</a>) e aguardar o contato da Associação.</p>
+</details>
+
+<details> <summary class="summary-closed">Para comunicar necessidade de manutenção, como poste da rua com luz queimada, mato da praça alto, ou outros</summary>
+<p>Por favor preencha a ficha: [clique aqui](#avisar-ocorrencias).</p>
+</details>
+
+<details> <summary class="summary-closed">Sugestões de segurança</summary>
+<ul>
+  <li> Realize manutenção preventiva em sua cerca elétrica;</li>
+  <li> Chame o vigia para auxiliá-lo na entrada e saida da residência;</li>
+  <li> Caso veja uma atitude suspeita, comunique o vigilante e a polícia.</li>
+</ul>
+</details>
+
+<details> <summary class="summary-closed">Descarte de podas de jardinagem</summary>
+<ul>
+  <li> Podas pequenas podem ser ensacadas e colocadas junto ao lixo residencial;</li>
+  <li> Podas maiores devem ser destinadas aos ecopontos da cidade (veja mais detalhes [clicando aqui](http://www.saocarlos.sp.gov.br/index.php/servicos-publicos/170833-relacao-ecopontos-saocarlos.html){rel="noopener noreferrer nofollow" target="_blank"});</li>
+  <li> Oriente os jardineiros à, **por favor, não jogar nada nos bosques**, pois a decomposição natural não é rápida o suficiente, podendo provocar a proliferação de insetos que retornarão às casas, além de reduzir a beleza dos bosques e .</li>
+</ul>
+</details>
 
 [↥ _Retornar ao menu_](#logo)
 
-## Previsão do tempo
 
-<!--![Chuva agora. Fonte: IPMET/UNESP](https://www.ipmetradar.com.br/img-ppi/ppi-anim.gif)-->
+## Previsão do tempo{#tempo}
 
 <figure style="text-align: center; overflow:hidden;">
-  <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; border-radius: 0em !important;" alt="Previsão do tempo. Fonte: CPTEC/INPE">
+  <img class="previsao" src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" alt="Previsão do tempo temporariamente fora do ar">
 </figure>
 
-[↥ _Retornar ao menu_](#logo)
-
-## Guias e orientações{#guias-e-orientacoes}
-
-<!--_Guias e orientações para os moradores contribuirem com a manutenção geral do bairro_-->
-
-O que faço em caso de...
-
-<details> <summary class="summary-closed">poste com luz queimada</summary>
-Preencher a ficha e enviar à associação para ser encaminhada ao setor resposável na prefeitura.
-</details>
-<details> <summary class="summary-closed">atitude suspeita</summary>
-Comunicar o vigilante e a polícia.
-</details>
-<details> <summary class="summary-closed">vazamento de água na rua</summary>
-Entrar em contato com SAAE no e-mail ou telefone informando o local do vazamento.
-</details>
-<details> <summary class="summary-closed">encontrar lixo em via pública</summary>
-</details>
-
-Orientações:
-
-<details> <summary class="summary-closed">sugestões de segurança</summary>
-* Realize manutenção preventiva em sua cerca elétrica  
-* Atenção ao sair de casa  
-* Chame o vigia para auxiliá-lo na entrada e saida da residência
-</details>
-* descarte de jardinagem;
-* descarte de entulho de reforma;
-* separação de coleta seletiva;
+[Clique aqui](https://www.ipmetradar.com.br/2animRadar.php){rel="noopener noreferrer nofollow" target="_blank"} para ver a chuva em tempo real (Fonte: IPMET/UNESP)
 
 [↥ _Retornar ao menu_](#logo)
 
-# Reportar ocorrências{#ocorrencias}
-_Por favor, use o formulário abaixo para reportar ocorrências._
+
+## Reportar ocorrências{#avisar-ocorrencias}
+_Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras do bosque cheias, árvore em risco de queda, entre outros. Selecione a opção no menu "Encontrei" e indique o local no campo de texto. Em seguida pressione o botão de enviar._
 
 <form id="ocorrencias">
 <label>Encontrei:</label>
-<div>
- <input type="radio" id="lixeira" name="ocorrencia" value="lixeira" checked><label for="john">Lixeira cheia</label>
-</div>
-<div>
- <input type="radio" id="mato" name="ocorrencia" value="mato" checked> <label for="jane">Mata dos bosques ou praça muito grande</label>
-</div>
-<div>
- <input type="radio" id="arvore" name="ocorrencia" value="arvore" checked> <label for="johnny">Árvore em risco de queda</label>
-</div>
-<div>
- <input type="radio" id="outros" name="ocorrencia" value="outros" checked> <label for="johnny">Outros (por favor, informe nas observações)</label>
-</div> <br>
-<textarea name="sobre" id="sobre" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></textarea>
-<input type="submit" value="Enviar">
+<select name="ocorrencia" id="ocorrencia">
+ <option value="lixeira">Lixeira cheia</option>
+ <option value="mato">Mata dos bosques ou praça muito grande</option>
+ <option value="arvore">Árvore em risco de queda</option>
+ <option value="patrimonio">Patrimônio (lixeira, banco, etc) danificado</option>
+ <option value="site">Problema no site</option>
+ <option value="outros">Outros (por favor, informe nas observações)</option>
+</select>
+<label>Observações:<input type="text" name="sobre" id="sobre" style="width: 100%;" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></label>
+ <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
 </form>
 
 [↥ _Retornar ao menu_](#logo)
 
 
-# Como se associar{#associar}
+## Mapa interativo{#mapa}
 
-Para se associar, por favor preencha a ficha abaixo e aguarde contato da associação para colher assinatura:
+<div id="map"></div>
+<script>
+    var reciclagem = L.layerGroup();
 
-<form id="associar" action="" method="POST" target="_blank" ><input type="hidden" name="_language" value="pt-BR">
-  <label>Nome:<input type="text" name="nome" style="width: 49%;">
-  </label>
-  <label>Rua que mora:<input type="text" name="nome" style="width: 49%;">
-  </label><br>
-  <label>E-mail:<input type="text" name="nome" style="width: 49%;">
-  </label>
-  <label>Telefone:<input type="text" name="nome" style="width: 49%;">
-  </label><br>
-  <label>Observações:
-    <textarea name="message"></textarea>
-  </label>
-  <div>
-  <input type="checkbox" id="noticias" name="noticias"><label class="noticias" for="noticias"> ← Declaro que desejo fazer parte do quadro de associados da Associação....</label>
-  </div>
-  <div>
-  <label>Prefiro receber o Boleto referente ao pagamento da Contribuição Mensal por:</label>
-  <div>
-   <input type="radio" id="correio" name="boleto" value="correio" checked><label for="correio">correio</label>
-  </div>
-  <div>
-   <input type="radio" id="mail" name="boleto" value="mail" checked> <label for="mail">e-mail</label>
-  </div>
-  </div>
-  <button type="submit" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
-</form>
+    var mbAttr = '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> + <a href="https://www.mapbox.com/">Mapbox</a>';
+	var mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
 
-[↥ _Retornar ao menu_](#logo)
+	var streets = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
+	var navigation = L.tileLayer(mbUrl, {id: 'mapbox/navigation-day-v1', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
 
-## Direitos e deveres dos associados{#direitos-e-deveres}
+    var map = L.map('map', {
+		center: [-22.013138, -47.905626],
+		zoom: 15,
+		layers: [streets, reciclagem]
+	});
 
-[↥ _Retornar ao menu_](#logo)
+    var baseLayers = {
+		'Ruas': streets,
+		'Trânsito': navigation,
+	};
 
-<!--## Eventos e pesquisas de opinião-->
+	var overlays = {
+		'Reciclagem': reciclagem,
+	};
 
-<!--[↥ _Retornar ao menu_](#logo)-->
+	var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
+
+	var marker = L.marker([-22.015438, -47.906544]).addTo(map)
+		.bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha (<a href="geo:-22.015438,-47.906544">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
+
+<!--	function onMapClick(e) {-->
+<!--		popup-->
+<!--			.setLatLng(e.latlng)-->
+<!--			.setContent('You clicked the map at ' + e.latlng.toString())-->
+<!--			.openOn(map);-->
+<!--	}-->
+<!--	map.on('click', onMapClick);-->
+
+</script>
+
+[↥ Retornar ao menu](#logo)
+
+
+
 
