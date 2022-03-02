@@ -107,9 +107,9 @@
         <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
         <h2 id="avisar-ocorrencias">Reportar ocorrências</h2>
         <p><em>Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras do bosque cheias, árvore em risco de queda, entre outros. Selecione a opção no menu “Encontrei” e indique o local no campo de texto. Em seguida pressione o botão de enviar.</em></p>
-        <form id="ocorrencias">
-        <label>Encontrei: <select name="ocorrencia" id="ocorrencia"> <option value="lixeira">Lixeira cheia</option> <option value="mato">Mata dos bosques ou praça muito grande</option> <option value="arvore">Árvore em risco de queda</option> <option value="patrimonio">Patrimônio (lixeira, banco, etc) danificado</option> <option value="site">Problema no site</option> <option value="outros">Outros (por favor, informe nas observações)</option> </select></label> <label>Observações:
-        <textarea type="text" name="message" id="message" rows="2" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></textarea>
+        <form action="https://formspree.io/f/mjvlrrwn" method="POST" id="ocorrencias" target="_blank">
+        <label>Encontrei: <select name="ocorrencia" id="ocorrencia" required="required"> <option value="null">Clique aqui para selecionar o tipo</option> <option value="lixeira">Lixeira cheia</option> <option value="mato">Mata dos bosques ou praça muito grande</option> <option value="arvore">Árvore em risco de queda</option> <option value="patrimonio">Patrimônio (lixeira, banco, etc) danificado</option> <option value="site">Problema no site</option> <option value="outros">Outros (por favor, informe nas observações)</option> </select></label> <label>Observações:
+        <textarea type="text" name="message" id="message" rows="2" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..." required="required"></textarea>
         </label> <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">&gt; Enviar &lt;</button>
         </form>
         <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
@@ -144,7 +144,7 @@
             var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
 
             var marker = L.marker([-22.015438, -47.906544]).addTo(map)
-                .bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha (<a href="geo:0,0?q=R.+Alexandre+Fleming,+1+-+Parque+Santa+Monica,+São+Carlos+-+SP,+13561-232">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
+                .bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha (<a href="geo:-22.0153818,-47.9087733?q=R.+Alexandre+Fleming,+1+-+Parque+Santa+Monica,+São+Carlos+-+SP,+13561-232">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
 
         <!--    function onMapClick(e) {-->
         <!--        popup-->

@@ -22,10 +22,10 @@ ou preencha o formulário abaixo:
 :::
 
 <form action="https://formspree.io/f/xnqwvvdk" method="POST" target="_blank" style="margin-top: -1em; margin-bottom: 2em; padding-top: 0.7em; padding-bottom: 0.75em;"><input type="hidden" name="_language" value="pt-BR">
-  <label>Seu e-mail:<input type="text" name="email" style="width: 62%;">
+  <label>Seu e-mail:<input type="text" name="email" style="width: 62%;" required="required">
   </label><br>
   <label>Sua mensagem:
-    <textarea name="message"></textarea>
+    <textarea name="message" required="required"></textarea>
   </label>
   <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
 </form>

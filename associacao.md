@@ -35,12 +35,12 @@ Para se associar, por favor preencha a ficha abaixo e aguarde contato da associa
 
 <form id="associar" action="https://formspree.io/f/xdobzzzn" method="POST" target="_blank" ><input type="hidden" name="_language" value="pt-BR">
 <div style="display: inline-block; width: 45%; margin-right: 1em;">
-  <label>Nome:<input type="text" name="name" style="width: 100%;"></label>
-  <label>Rua da residência:<input type="text" name="street" style="width: 100%;"></label>
+  <label>Nome:<input type="text" name="name" style="width: 100%;" required="required"></label>
+  <label>Rua da residência:<input type="text" name="street" style="width: 100%;" required="required"></label>
 </div>
 <div style="display: inline-block; width: 45%; margin-left: 1em;">
-  <label>E-mail:<input type="text" name="mail" style="width: 100%;"></label>
-  <label>Telefone:<input type="text" name="phone" style="width: 100%;"></label>
+  <label>E-mail:<input type="text" name="mail" style="width: 100%;" required="required"></label>
+  <label>Telefone:<input type="text" name="phone" style="width: 100%;" required="required"></label>
 </div><br>
   <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
 </form>

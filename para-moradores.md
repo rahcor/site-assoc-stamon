@@ -67,7 +67,8 @@ _Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras d
 
 <form action="https://formspree.io/f/mjvlrrwn" method="POST" id="ocorrencias" target="_blank">
 <label>Encontrei:
-<select name="ocorrencia" id="ocorrencia">
+<select name="ocorrencia" id="ocorrencia" required="required">
+ <option value="null">Clique aqui para selecionar o tipo</option>
  <option value="lixeira">Lixeira cheia</option>
  <option value="mato">Mata dos bosques ou praça muito grande</option>
  <option value="arvore">Árvore em risco de queda</option>
@@ -76,7 +77,7 @@ _Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras d
  <option value="outros">Outros (por favor, informe nas observações)</option>
 </select></label>
 <label>Observações:
-    <textarea type="text" name="message" id="message" rows="2" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></textarea>
+    <textarea type="text" name="message" id="message" rows="2" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..." required="required"></textarea>
 </label>
  <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
 </form>
