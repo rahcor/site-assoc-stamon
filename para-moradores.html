@@ -9,6 +9,12 @@
     <title>Associação de Moradores do Parque Santa Mônica</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css" />
   <link rel="stylesheet" href="./src/stamonica.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
 </head>
 <body>
     <img id= "logo" src="./src/logo.png" alt="Logotipo da Associação de Moradores do Parque Santa Mônica" class="logo" />
@@ -22,112 +28,136 @@
               <li>
                   <a href="./index.html"><strong>Página inicial</strong>: apresentação e vídeo</a></li>
               <li>
-                  <a href="./sobre-o-bairro.html"><strong>O bairro</strong>: qualidade de vida, informações e fotos</a></li>
+                  <a href="./sobre-o-bairro.html"><strong>O bairro</strong>: qualidade de vida e fotos</a></li>
               <li>
-                  <a href="./associacao-de-moradores.html"><strong>A associação</strong>: projetos e conquistas</a></li>
+                  <a href="./associacao-de-moradores.html"><strong>A associação</strong>: atividades e conquistas</a></li>
               <li class="morad-markers">Para moradores:
                   <ul>
-                  <li><a href="#mural-de-recados">Mural de recados</a></li>
-                  <li><a href="#previsão-do-tempo">Previsão do tempo</a></li>
-                  <li><a href="#guias-e-ocorrencias">Guias e orientações</a></li>
-                  <li><a href="#ocorrencias">Reportar ocorrencias</a></li>
-                  <li><a href="#associe-se">Como se associar</a></li>
-                  <li><a href="#direitos-e-deveres">Direitos e deveres dos associados</a></li>
+                  <li><a href="#comunicados">Comunicados e orientações</a></li>
         <!--          <li><a href="#eventos.html">Eventos e pesquisas de opinião</a></li>-->
+                  <li><a href="#tempo">Previsão do tempo</a></li>
+                  <li><a href="#avisar-ocorrencias">Avisar ocorrências</a></li>
+                  <li><a href="#mapa">Mapa interativo</a></li>
                   </ul></li>
               <li><a href="./contato.html"><strong>Contato</strong> e Mapa do site</a></li>
             </ol>
           </details>
-        </nav>  <h2 id="mural-de-recados">Mural de recados</h2>
-        <ul>
-        <li><a href="./temp-images/202201-comunicado.pdf">Último comunicado</a></li>
-        <li>Recado 1</li>
-        <li>Para se associar, basta preencher a ficha (<a href="#associar">clique aqui</a>).</li>
+        </nav>  <h2 id="comunicados">Comunicados e orientações</h2>
+        <!--<details style="margin-bottom: 1em;" open=""> <summary class="summary-closed">Comunicados anteriores</summary>-->
+        Comunicados:
+        <ul style="margin-bottom: 1.5em;">
+        <li>
+        <a href="./media/comunicados2022/comunicado20220110.pdf">Janeiro/2022 – Projetos e ações realizados em 2021 e futuras</a>
+        </li>
+        <li>
+        <a href="./media/comunicados2022/comunicado-acoes2021.pdf">10/Janeiro/2022 – Reajuste na contribuição mensal</a>
+        </li>
+        <li>
+        <a href="./media/comunicados2022/comunicado20220201.pdf">01/Fevereiro/2022 – Ações iniciadas em 2022</a>
+        </li>
         </ul>
+        <!--</details>-->
+        Orientações (clique no item para detalhar):
+        <details>
+        <summary class="summary-closed">Como se associar</summary>
+        <p>
+        Para se associar, basta preencher a ficha (<a href="./associacao-de-moradores.html#associe-se" target="_blank">clique aqui</a>) e aguardar o contato da Associação.
+        </p>
+        </details>
+        <details>
+        <summary class="summary-closed">Para comunicar necessidade de manutenção, como poste da rua com luz queimada, mato da praça alto, ou outros</summary>
+        <p>
+        Por favor preencha a ficha: <a href="#avisar-ocorrencias">clique aqui</a>.
+        </p>
+        </details>
+        <details>
+        <summary class="summary-closed">Sugestões de segurança</summary>
+        <ul>
+        <li>
+        Realize manutenção preventiva em sua cerca elétrica;
+        </li>
+        <li>
+        Chame o vigia para auxiliá-lo na entrada e saida da residência;
+        </li>
+        <li>
+        Caso veja uma atitude suspeita, comunique o vigilante e a polícia.
+        </li>
+        </ul>
+        </details>
+        <details>
+        <summary class="summary-closed">Descarte de podas de jardinagem</summary>
+        <ul>
+        <li>
+        Podas pequenas podem ser ensacadas e colocadas junto ao lixo residencial;
+        </li>
+        <li>
+        Podas maiores devem ser destinadas aos ecopontos da cidade (veja mais detalhes <a href="http://www.saocarlos.sp.gov.br/index.php/servicos-publicos/170833-relacao-ecopontos-saocarlos.html" rel="noopener noreferrer nofollow" target="_blank">clicando aqui</a>);
+        </li>
+        <li>
+        Oriente os jardineiros à, <strong>por favor, não jogar nada nos bosques</strong>, pois a decomposição natural não é rápida o suficiente, podendo provocar a proliferação de insetos que retornarão às casas, além de reduzir a beleza dos bosques e .
+        </li>
+        </ul>
+        </details>
         <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
-        <h2 id="previsão-do-tempo">Previsão do tempo</h2>
-        <!--![Chuva agora. Fonte: IPMET/UNESP](https://www.ipmetradar.com.br/img-ppi/ppi-anim.gif)-->
+        <h2 id="tempo">Previsão do tempo</h2>
         <figure style="text-align: center; overflow:hidden;">
-        <img src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" style="width:75%; margin: 0px 0px -62.5% 0px; border-radius: 0em !important;" alt="Previsão do tempo. Fonte: CPTEC/INPE">
+        <img class="previsao" src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" alt="Previsão do tempo temporariamente fora do ar">
         </figure>
+        <p><a href="https://www.ipmetradar.com.br/2animRadar.php" rel="noopener noreferrer nofollow" target="_blank">Clique aqui</a> para ver a chuva em tempo real (Fonte: IPMET/UNESP)</p>
         <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
-        <h2 id="guias-e-orientacoes">Guias e orientações</h2>
-        <!--_Guias e orientações para os moradores contribuirem com a manutenção geral do bairro_-->
-        <p>O que faço em caso de…</p>
-        <details>
-        <summary class="summary-closed">poste com luz queimada</summary> Preencher a ficha e enviar à associação para ser encaminhada ao setor resposável na prefeitura.
-        </details>
-        <details>
-        <summary class="summary-closed">atitude suspeita</summary> Comunicar o vigilante e a polícia.
-        </details>
-        <details>
-        <summary class="summary-closed">vazamento de água na rua</summary> Entrar em contato com SAAE no e-mail ou telefone informando o local do vazamento.
-        </details>
-        <details>
-        <summary class="summary-closed">encontrar lixo em via pública</summary>
-        </details>
-        <p>Orientações:</p>
-        <details>
-        <summary class="summary-closed">sugestões de segurança</summary> * Realize manutenção preventiva em sua cerca elétrica<br />
-        * Atenção ao sair de casa<br />
-        * Chame o vigia para auxiliá-lo na entrada e saida da residência
-        </details>
-        <ul>
-        <li>descarte de jardinagem;</li>
-        <li>descarte de entulho de reforma;</li>
-        <li>separação de coleta seletiva;</li>
-        </ul>
-        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
-        <h1 id="ocorrencias">Reportar ocorrências</h1>
-        <p><em>Por favor, use o formulário abaixo para reportar ocorrências.</em></p>
+        <h2 id="avisar-ocorrencias">Reportar ocorrências</h2>
+        <p><em>Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras do bosque cheias, árvore em risco de queda, entre outros. Selecione a opção no menu “Encontrei” e indique o local no campo de texto. Em seguida pressione o botão de enviar.</em></p>
         <form id="ocorrencias">
-        <label>Encontrei:</label>
-        <div>
-        <p><input type="radio" id="lixeira" name="ocorrencia" value="lixeira" checked><label for="john">Lixeira cheia</label></p>
-        </div>
-        <div>
-        <p><input type="radio" id="mato" name="ocorrencia" value="mato" checked> <label for="jane">Mata dos bosques ou praça muito grande</label></p>
-        </div>
-        <div>
-        <p><input type="radio" id="arvore" name="ocorrencia" value="arvore" checked> <label for="johnny">Árvore em risco de queda</label></p>
-        </div>
-        <div>
-        <p><input type="radio" id="outros" name="ocorrencia" value="outros" checked> <label for="johnny">Outros (por favor, informe nas observações)</label></p>
-        </div>
-        <br>
-        <textarea name="sobre" id="sobre" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></textarea>
-        <input type="submit" value="Enviar">
+        <label>Encontrei:</label> <select name="ocorrencia" id="ocorrencia"> <option value="lixeira">Lixeira cheia</option> <option value="mato">Mata dos bosques ou praça muito grande</option> <option value="arvore">Árvore em risco de queda</option> <option value="patrimonio">Patrimônio (lixeira, banco, etc) danificado</option> <option value="site">Problema no site</option> <option value="outros">Outros (por favor, informe nas observações)</option> </select> <label>Observações:<input type="text" name="sobre" id="sobre" style="width: 100%;" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></label> <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
         </form>
         <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
-        <h1 id="associar">Como se associar</h1>
-        <p>Para se associar, por favor preencha a ficha abaixo e aguarde contato da associação para colher assinatura:</p>
-        <form id="associar" action method="POST" target="_blank">
-        <input type="hidden" name="_language" value="pt-BR"> <label>Nome:<input type="text" name="nome" style="width: 49%;"> </label> <label>Rua que mora:<input type="text" name="nome" style="width: 49%;"> </label><br> <label>E-mail:<input type="text" name="nome" style="width: 49%;"> </label> <label>Telefone:<input type="text" name="nome" style="width: 49%;"> </label><br> <label>Observações:
-        <textarea name="message"></textarea>
-        </label>
-        <div>
-        <input type="checkbox" id="noticias" name="noticias"><label class="noticias" for="noticias"> ← Declaro que desejo fazer parte do quadro de associados da Associação….</label>
+        <h2 id="mapa">Mapa interativo</h2>
+        <div id="map">
+
         </div>
-        <div>
-        <label>Prefiro receber o Boleto referente ao pagamento da Contribuição Mensal por:</label>
-        <div>
-        <input type="radio" id="correio" name="boleto" value="correio" checked><label for="correio">correio</label>
-        </div>
-        <div>
-        <input type="radio" id="mail" name="boleto" value="mail" checked> <label for="mail">e-mail</label>
-        </div>
-        </div>
-        <button type="submit" style="margin-left: auto; margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
-        </form>
-        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
-        <h2 id="direitos-e-deveres">Direitos e deveres dos associados</h2>
-        <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
-        <!--## Eventos e pesquisas de opinião-->
-        <!--[↥ _Retornar ao menu_](#logo)-->
+        <script>
+            var reciclagem = L.layerGroup();
+
+            var mbAttr = '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> + <a href="https://www.mapbox.com/">Mapbox</a>';
+            var mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
+
+            var streets = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
+            var navigation = L.tileLayer(mbUrl, {id: 'mapbox/navigation-day-v1', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
+
+            var map = L.map('map', {
+                center: [-22.013138, -47.905626],
+                zoom: 15,
+                layers: [streets, reciclagem]
+            });
+
+            var baseLayers = {
+                'Ruas': streets,
+                'Trânsito': navigation,
+            };
+
+            var overlays = {
+                'Reciclagem': reciclagem,
+            };
+
+            var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
+
+            var marker = L.marker([-22.015438, -47.906544]).addTo(map)
+                .bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha (<a href="geo:-22.015438,-47.906544">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
+
+        <!--    function onMapClick(e) {-->
+        <!--        popup-->
+        <!--            .setLatLng(e.latlng)-->
+        <!--            .setContent('You clicked the map at ' + e.latlng.toString())-->
+        <!--            .openOn(map);-->
+        <!--    }-->
+        <!--    map.on('click', onMapClick);-->
+
+        </script>
+        <p><a href="#logo">↥ Retornar ao menu</a></p>
         <footer style="text-align: justify;">
         <p>© 2022 Associação de Moradores do Parque Santa Mônica, porém uso disponível sob licença livre <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Creative Commons BY-SA 4.0</a>, exceto para os conteúdos não originais desse site.
         Construído com <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a> pela própria Associação.</p><!--RRM-->
-        <details> <summary>Aviso legal</summary>
+        <details> <summary class="summary-closed">Aviso legal</summary>
           <p>Os materiais contidos neste site são fornecidos apenas para fins de informação geral e não pretendem ser ou constituem conselhos legais ou outros profissionais e não devem ser invocados como tal. Não nos responsabilizamos por qualquer perda que possa surgir do acesso a este site nem pela dependência de informações encontradas no site. Na maior medida permitida pela lei, excluímos toda a responsabilidade por perdas ou danos diretos ou indiretos decorrentes do uso deste site.</p> 
         </details>
         </footer>  </body>
