@@ -20,10 +20,11 @@ O trabalho é feito de modo voluntário pelos associados, os quais atuam nos pro
 Além disso, visa unir forças para representar os interesses dos moradores junto ao poder público. Dentre suas conquistas estão:
 
 * câmeras que aprimoraram a segurança do bairro;
-* infraestrutura no entorno dos bosques, como iluminação e bancos, que modernizaram o bairro e provém mais uma opção de lazer; e
-* pontos de coleta de lixo que favorecem a limpeza do bairro.
+* infraestrutura no entorno dos bosques, como iluminação e bancos, que modernizaram o bairro e provém mais uma opção de lazer;
+* pontos de coleta de lixo que favorecem a limpeza do bairro; e
+* [Clique aqui](./media/comunicados2022/comunicado-acoes2021.pdf) e veja as conquistas de 2021 e as propostas futuras.
 
-Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha ajudar para construirmos um bairro melhor!
+Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades: venha ajudar para construirmos um bairro melhor!
 
 [↥ _Retornar ao menu_](#logo)
 
@@ -32,16 +33,16 @@ Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades -- venha 
 
 Para se associar, por favor preencha a ficha abaixo e aguarde contato da associação para colher mais alguns dados e sua assinatura. Obrigado pelo interesse em se associar! Sua contribuição tornará o bairro melhor!
 
-<form id="associar" action="" method="POST" target="_blank" ><input type="hidden" name="_language" value="pt-BR">
+<form id="associar" action="https://formspree.io/f/xdobzzzn" method="POST" target="_blank" ><input type="hidden" name="_language" value="pt-BR">
 <div style="display: inline-block; width: 45%; margin-right: 1em;">
-  <label>Nome:<input type="text" name="nome" style="width: 100%;"></label>
-  <label>Rua da residência:<input type="text" name="nome" style="width: 100%;"></label>
+  <label>Nome:<input type="text" name="name" style="width: 100%;"></label>
+  <label>Rua da residência:<input type="text" name="street" style="width: 100%;"></label>
 </div>
 <div style="display: inline-block; width: 45%; margin-left: 1em;">
-  <label>E-mail:<input type="text" name="nome" style="width: 100%;"></label>
-  <label>Telefone:<input type="text" name="nome" style="width: 100%;"></label>
+  <label>E-mail:<input type="text" name="mail" style="width: 100%;"></label>
+  <label>Telefone:<input type="text" name="phone" style="width: 100%;"></label>
 </div><br>
-  <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
+  <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
 </form>
 
 [↥ _Retornar ao menu_](#logo)

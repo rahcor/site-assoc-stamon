@@ -21,7 +21,7 @@ E-mail:<a style="margin-left: 1em;" href="mailto:parquesantamonicasc@gmail.com">
 ou preencha o formulário abaixo:
 :::
 
-<form action="" method="POST" target="_blank" style="margin-top: -1em; margin-bottom: 2em; padding-top: 0.7em; padding-bottom: 0.75em;"><input type="hidden" name="_language" value="pt-BR">
+<form action="https://formspree.io/f/xnqwvvdk" method="POST" target="_blank" style="margin-top: -1em; margin-bottom: 2em; padding-top: 0.7em; padding-bottom: 0.75em;"><input type="hidden" name="_language" value="pt-BR">
   <label>Seu e-mail:<input type="text" name="email" style="width: 62%;">
   </label><br>
   <label>Sua mensagem:

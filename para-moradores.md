@@ -44,7 +44,7 @@ Orientações (clique no item para detalhar):
 <ul>
   <li> Podas pequenas podem ser ensacadas e colocadas junto ao lixo residencial;</li>
   <li> Podas maiores devem ser destinadas aos ecopontos da cidade (veja mais detalhes [clicando aqui](http://www.saocarlos.sp.gov.br/index.php/servicos-publicos/170833-relacao-ecopontos-saocarlos.html){rel="noopener noreferrer nofollow" target="_blank"});</li>
-  <li> Oriente os jardineiros à, **por favor, não jogar nada nos bosques**, pois a decomposição natural não é rápida o suficiente, podendo provocar a proliferação de insetos que retornarão às casas, além de reduzir a beleza dos bosques e .</li>
+  <li> Oriente os jardineiros à, **por favor, não jogar nada nos bosques**, pois a decomposição natural não é rápida o suficiente, podendo provocar a proliferação de insetos que retornarão às casas e elevar o risco de queimadas, colocando em risco a saúde dos moradores e transeuntes.</li>
 </ul>
 </details>
 
@@ -65,8 +65,8 @@ Orientações (clique no item para detalhar):
 ## Reportar ocorrências{#avisar-ocorrencias}
 _Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras do bosque cheias, árvore em risco de queda, entre outros. Selecione a opção no menu "Encontrei" e indique o local no campo de texto. Em seguida pressione o botão de enviar._
 
-<form id="ocorrencias">
-<label>Encontrei:</label>
+<form action="https://formspree.io/f/mjvlrrwn" method="POST" id="ocorrencias" target="_blank">
+<label>Encontrei:
 <select name="ocorrencia" id="ocorrencia">
  <option value="lixeira">Lixeira cheia</option>
  <option value="mato">Mata dos bosques ou praça muito grande</option>
@@ -74,9 +74,11 @@ _Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras d
  <option value="patrimonio">Patrimônio (lixeira, banco, etc) danificado</option>
  <option value="site">Problema no site</option>
  <option value="outros">Outros (por favor, informe nas observações)</option>
-</select>
-<label>Observações:<input type="text" name="sobre" id="sobre" style="width: 100%;" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></label>
- <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">Enviar</button>
+</select></label>
+<label>Observações:
+    <textarea type="text" name="message" id="message" rows="2" placeholder="Por favor indique a localização e outras informações que julgar pertinentes..."></textarea>
+</label>
+ <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
 </form>
 
 [↥ _Retornar ao menu_](#logo)
@@ -112,7 +114,7 @@ _Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras d
 	var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
 
 	var marker = L.marker([-22.015438, -47.906544]).addTo(map)
-		.bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha (<a href="geo:-22.015438,-47.906544">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
+		.bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha (<a href="geo:-22.0153818,-47.9087733?q=R.+Alexandre+Fleming,+1+-+Parque+Santa+Monica,+São+Carlos+-+SP,+13561-232">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
 
 <!--	function onMapClick(e) {-->
 <!--		popup-->
