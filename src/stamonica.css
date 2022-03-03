@@ -155,7 +155,7 @@ select {
     select {
       width: 100%;
     }
-  };
+}
 
 @media (max-width: 850px) {
     h1 {
