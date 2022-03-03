@@ -148,6 +148,14 @@ img.t-antibot{
 
 ul {padding-left: 1rem;}
 
+select {
+  width: 50%;
+}
+@media (max-width: 650px) {
+    select {
+      width: 100%;
+    }
+  };
 
 @media (max-width: 850px) {
     h1 {

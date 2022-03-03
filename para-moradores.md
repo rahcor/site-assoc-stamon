@@ -115,7 +115,7 @@ _Por favor, use o formulário abaixo para reportar ocorrências, como lixeiras d
 	var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
 
 	var marker = L.marker([-22.015438, -47.906544]).addTo(map)
-		.bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha (<a href="geo:-22.0153818,-47.9087733?q=R.+Alexandre+Fleming,+1+-+Parque+Santa+Monica,+São+Carlos+-+SP,+13561-232">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
+		.bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha<br>Esquina da Rua Alexandre Fleming com Av. Dr. Paulo Pinheiro Werneck<br>(<a href="geo:0,0?q=R.+Alexandre+Fleming,+1+-+Parque+Santa+Monica,+São+Carlos+-+SP,+13561-232">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
 
 <!--	function onMapClick(e) {-->
 <!--		popup-->
