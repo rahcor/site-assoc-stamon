@@ -17,9 +17,10 @@ leaflet: True
 <!--<details style="margin-bottom: 1em;" open=""> <summary class="summary-closed">Comunicados anteriores</summary>-->
 Comunicados:
   <ul style="margin-bottom: 1.5em;">
-  <li><a href="./media/comunicados2022/comunicado20220110.pdf">Janeiro/2022 -- Projetos e ações realizados em 2021 e futuras</a></li>
-  <li><a href="./media/comunicados2022/comunicado-acoes2021.pdf">10/Janeiro/2022 -- Reajuste na contribuição mensal</a></li>
-  <li><a href="./media/comunicados2022/comunicado20220201.pdf">01/Fevereiro/2022 -- Ações iniciadas em 2022</a></li>
+    <li><strong style="color:red;">A implantação dos novos pontos de câmeras está ocorrendo!</strong> Obrigado pela contribuição! Em breve traremos um comunicado completo.</li>
+    <li><a href="./media/comunicados2022/comunicado20220201.pdf">01/fevereiro/2022 – Ações iniciadas em 2022</a></li>
+    <li><a href="./media/comunicados2022/comunicado20220110.pdf">10/janeiro/2022 – Reajuste na contribuição mensal</a></li>
+    <li><a href="./media/comunicados2022/comunicado-acoes2021.pdf">janeiro/2022 – Projetos e ações realizados em 2021 e futuras</a></li>
   </ul>
 <!--</details>-->
 
