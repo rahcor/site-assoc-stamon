@@ -34,11 +34,11 @@ Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades: venha aj
 Para se associar, por favor preencha a ficha abaixo e aguarde contato da associação para colher mais alguns dados e sua assinatura. Obrigado pelo interesse em se associar! Sua contribuição tornará o bairro melhor!
 
 <form id="associar" action="https://formspree.io/f/xdobzzzn" method="POST" target="_blank" ><input type="hidden" name="_language" value="pt-BR">
-<div style="display: inline-block; width: 45%; margin-right: 1em;">
+<div class="form-left">
   <label>Nome:<input type="text" name="name" style="width: 100%;" required="required"></label>
   <label>Rua da residência:<input type="text" name="street" style="width: 100%;" required="required"></label>
 </div>
-<div style="display: inline-block; width: 45%; margin-left: 1em;">
+<div class="form-right">
   <label>E-mail:<input type="text" name="mail" style="width: 100%;" required="required"></label>
   <label>Telefone:<input type="text" name="phone" style="width: 100%;" required="required"></label>
 </div><br>
@@ -50,8 +50,8 @@ Para se associar, por favor preencha a ficha abaixo e aguarde contato da associa
 
 ## Atividades administrativas{#administracao}
 
-* Participação no Conselho Municipal de Desenvolvimento Urbano (COMDUSC) e audiências públicas, interferindo quando os temas possam afetar o Bairro.
-* Realização rotineira de audiências com Secretários, Vereadores, Prefeito, reivindicando benfeitorias, segurança e manutenção do Bairro
+* Participação no Conselho Municipal de Desenvolvimento Urbano (COMDUSC) e audiências públicas, interferindo quando os temas possam afetar o bairro.
+* Realização rotineira de audiências com Secretários, Vereadores e Prefeito, reivindicando benfeitorias, segurança e manutenção do bairro.
 * Elaboração de ofícios à prefeitura e outros órgãos competentes.
 * Reuniões da associação e suas comissões.
 * Contato com prestadores de serviço.
