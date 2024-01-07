@@ -20,30 +20,10 @@ O trabalho é feito de modo voluntário pelos associados, os quais atuam nos pro
 Além disso, visa unir forças para representar os interesses dos moradores junto ao poder público. Dentre suas conquistas estão:
 
 * câmeras que aprimoraram a segurança do bairro;
-* infraestrutura no entorno dos bosques, como iluminação e bancos, que modernizaram o bairro e provém mais uma opção de lazer;
-* pontos de coleta de lixo que favorecem a limpeza do bairro; e
-* [Clique aqui](./media/comunicados2022/comunicado-acoes2021.pdf) e veja as conquistas de 2021 e as propostas futuras.
+* infraestrutura no entorno dos bosques, como iluminação e bancos, que modernizaram o bairro e provém mais uma opção de lazer; e
+* pontos de coleta de lixo que favorecem a limpeza do bairro.
 
 Atualmente cerca de 6 voluntarios desenvolvem os projetos e atividades: venha ajudar para construirmos um bairro melhor!
-
-[↥ _Retornar ao menu_](#logo)
-
-
-## Como se associar{#associe-se}
-
-Para se associar, por favor preencha a ficha abaixo e aguarde contato da associação para colher mais alguns dados e sua assinatura. Obrigado pelo interesse em se associar! Sua contribuição tornará o bairro melhor!
-
-<form id="associar" action="https://formspree.io/f/xdobzzzn" method="POST" target="_blank" ><input type="hidden" name="_language" value="pt-BR">
-<div class="form-left">
-  <label>Nome:<input type="text" name="name" style="width: 100%;" required="required"></label>
-  <label>Rua da residência:<input type="text" name="street" style="width: 100%;" required="required"></label>
-</div>
-<div class="form-right">
-  <label>E-mail:<input type="text" name="mail" style="width: 100%;" required="required"></label>
-  <label>Telefone:<input type="text" name="phone" style="width: 100%;" required="required"></label>
-</div><br>
-  <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
-</form>
 
 [↥ _Retornar ao menu_](#logo)
 
@@ -101,34 +81,73 @@ Veja detalhes abaixo.
 [↥ _Retornar ao menu_](#logo)
 
 
+## Como se associar{#associe-se}
+
+Para se associar, por favor preencha a ficha abaixo e aguarde contato da associação para colher sua assinatura. Obrigado pelo interesse em se associar! Sua contribuição tornará o bairro melhor!
+
+<form id="associar" action="https://formspree.io/f/xdobzzzn" method="POST" target="_blank" ><input type="hidden" name="_language" value="pt-BR">
+<div class="form-left">
+  <label>Nome:<input type="text" name="name" style="width: 100%;" required="required"></label>
+  <label>Data de nascimento:<input type="tel" name="bdate" style="width: 100%;"></label>
+  <label>Local de nascimento:<input type="text" name="bplace" style="width: 100%;"></label>
+<!--  <label>Nacionalidade:<input type="text" name="bcountry" style="width: 100%;"></label>-->
+  <label>CPF:<input type="tel" name="cpf" pattern="[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}" style="width: 100%;"></label>
+<!--  <label>RG:<input type="tel" name="rg" pattern="(^\d {1,2}).? (\d {3}).? (\d {3})-? (\d {1}|X|x$)" style="width: 100%;"></label>-->
+</div>
+<div class="form-right">
+  <label>Rua e nº da residência:<input type="text" name="street" style="width: 100%;" title="Rua e nº da residência" required="required"></label>
+<!--  <label>CEP:<input type="tel" name="cep" pattern="\d{5} \-? \d{3}" style="width: 100%;"></label>-->
+  <label>E-mail:<input type="email" name="mail" title="E-mail" style="width: 100%;" required="required"></label>
+  <label>Celular com DDD:<input type="tel" name="phone" style="width: 100%;" required="required"></label>
+<!--  <label>Telefone fixo (se tiver):<input type="tel" pattern="\(?[1-9]{2}\)? (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}" name="altphone" style="width: 100%;"></label>-->
+  <label>Contato adicional (nome e telefone):<input type="text" name="adcontact" style="width: 100%;"></label>
+</div><br>
+  <input type="checkbox" name="agree" required="required"><label style="font-style: italic;">Desejo fazer parte do quadro dos associados da Associação Amigos do Bairro Parque Santa Mônica, manifestando-me ciente e compromentendo-me a realizar fielmente o pagamento das contribuições mensais associativas a fim de honrar os compromissos da Associação, em forma de rateio entre todos os associados para suprir todas as despesas. Na eventualidade do desligamento do quadro associativo, comunicarei a minha decisão por escrito à Diretoria da Associação com aviso prévio de 30 dias.
+Estou ciente que o valor a ser pago do primeiro ao último mês como associado corresponderá ao mês inteiro, ou seja, não cabendo pagamento proporcional sobre dias, independentemente da data da assinatura do cadastro ou da data do cancelamento do quadro associativo.</label><br><br>
+  <label>Gostaria de receber o Boleto referente ao pagamento da Contribuição Mensal através de:<br>
+    <input type="radio" name="payment" required="required">Boleto bancário via Correio<br>
+    <input type="radio" name="payment" required="required">Boleto via e-mail<br>
+    <input type="radio" name="payment" required="required">PIX
+  </label>
+  <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
+</form>
+
+Caso prefira, é possível preencher a ficha manualmente: <a href="./media/ficha-cadastro-associado.docx">clique para baixar o arquivo</a>.
+
+[↥ _Retornar ao menu_](#logo)
+
+
 ## Estatuto e mesa diretora{#diretoria}
 
 <details style="margin-bottom: 1em;" open=""> <summary>Estatuto e outros documentos</summary>
   <ul>
   <li><a href="./media/estatuto.pdf">Estatuto</a></li>
-  <li><a href="./media/ficha-cadastro.pdf">Modelo da ficha de cadastro de associado</a></li>
+  <li><a href="./media/convite-associacao.pdf">Carta convite aos moradores</a></li>
   </ul>
 </details>
 
 :::{.table-diretoria}
 -----------------------------------------
-Mesa diretora        
+Diretoria        
 -------------------- --------------------
-Presidente           Rosely F. Pozzi
+Presidente           Samir C. Cesaretti
 
-Vice-presidente      Francisco R. Andriolo
+Vice-presidente      Rosely F. Pozzi
 
-Tesoureira           Yvonne F. Sabe
+Secretária           Loren C. Rodrigues
 
-Secretário           Claudio A. Policastro
+Tesoureiro           Marina C. Martinez
+-----------------------------------------
+-----------------------------------------
+Conselheiros fiscais 
+-------------------- --------------------
+Conselho             Claudio Policastro
 
-Conselho             José G. Sabe
+Conselho             Mauro M. G. Saldanha
 
-Conselho             Alex O. Azouri
+Conselho             Jorge A. Achcar
 
-Conselho             Luiz C. A. Fiorentino
-
-Conselho (suplente)  Pedro A. Monteleone Filho
+Suplente             Ricardo L. Silva
 -----------------------------------------
 :::
 
