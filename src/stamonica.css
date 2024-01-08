@@ -113,6 +113,13 @@ ol {
  padding-left: 1rem;
 }
 
+input[type='radio'], input[type='checkbox'] {
+  height: 1.75em;
+  width: 1.75em;
+  vertical-align: middle;
+}
+
+
 .center {
  text-align: center;
 }
@@ -191,6 +198,12 @@ select {
     header {
       display: block;
       margin-left: 0em;
+    }
+   
+   input[type='radio'], input[type='checkbox'] {
+      height: 2em;
+      width: 2em;
+      vertical-align: middle;
     }
 }
 
