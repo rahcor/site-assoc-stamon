@@ -160,7 +160,7 @@ Mônica</h1>
         adicional:<input type="tel" name="adcontact_phone" style="width: 100%;"></label></p>
         </div>
         <br>
-        <input type="checkbox" name="agree" required="required"><label style="font-style: italic;">Desejo
+        <input type="checkbox" name="agree" id="form_agree" required="required"><label for="form_agree" style="font-style: italic;">Desejo
         fazer parte do quadro dos associados da Associação Amigos do
         Bairro Parque Santa Mônica, manifestando-me ciente e
         compromentendo-me a realizar fielmente o pagamento das
@@ -173,15 +173,17 @@ Mônica</h1>
         mês como associado corresponderá ao mês inteiro, ou seja, não
         cabendo pagamento proporcional sobre dias, independentemente da
         data da assinatura do cadastro ou da data do cancelamento do
-        quadro associativo.</label><br><br> <label>Gostaria de receber o
-        Boleto referente ao pagamento da Contribuição Mensal através
-        de:<br>
-        <input type="radio" name="payment" required="required">Boleto
-        bancário via Correio<br>
-        <input type="radio" name="payment" required="required">Boleto
-        via e-mail<br>
-        <input type="radio" name="payment" required="required">PIX
-        </label> <br>
+        quadro associativo.</label><br>
+        <p>
+        Gostaria de receber o Boleto referente ao pagamento da
+        Contribuição Mensal através de:
+        </p>
+        <input type="radio" name="payment" id="form_radio1" required="required"><label for="form_radio1">Boleto
+        bancário via Correio</label><br>
+        <input type="radio" name="payment" id="form_radio2" required="required"><label for="form_radio2">Boleto
+        via e-mail</label><br>
+        <input type="radio" name="payment" id="form_radio3" required="required"><label for="form_radio3">PIX</label>
+        <br>
         <p>
         <a href="./media/convite-associacao.pdf">Carta convite aos
         moradores</a>

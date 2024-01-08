@@ -104,14 +104,14 @@ Para se associar, por favor preencha a ficha abaixo e aguarde contato da associa
   <label>Contato adicional (nome):<input type="text" name="adcontact_name" style="width: 100%;"></label>
   <label>Celular do contato adicional:<input type="tel" name="adcontact_phone" style="width: 100%;"></label>
 </div><br>
-  <input type="checkbox" name="agree" required="required"><label style="font-style: italic;">Desejo fazer parte do quadro dos associados da Associação Amigos do Bairro Parque Santa Mônica, manifestando-me ciente e compromentendo-me a realizar fielmente o pagamento das contribuições mensais associativas a fim de honrar os compromissos da Associação, em forma de rateio entre todos os associados para suprir todas as despesas. Na eventualidade do desligamento do quadro associativo, comunicarei a minha decisão por escrito à Diretoria da Associação com aviso prévio de 30 dias.
-Estou ciente que o valor a ser pago do primeiro ao último mês como associado corresponderá ao mês inteiro, ou seja, não cabendo pagamento proporcional sobre dias, independentemente da data da assinatura do cadastro ou da data do cancelamento do quadro associativo.</label><br><br>
-  <label>Gostaria de receber o Boleto referente ao pagamento da Contribuição Mensal através de:<br>
-    <input type="radio" name="payment" required="required">Boleto bancário via Correio<br>
-    <input type="radio" name="payment" required="required">Boleto via e-mail<br>
-    <input type="radio" name="payment" required="required">PIX
-  </label>
-  <br><p><a href="./media/convite-associacao.pdf">Carta convite aos moradores</a></p>
+  <input type="checkbox" name="agree" id="form_agree" required="required"><label for="form_agree" style="font-style: italic;">Desejo fazer parte do quadro dos associados da Associação Amigos do Bairro Parque Santa Mônica, manifestando-me ciente e compromentendo-me a realizar fielmente o pagamento das contribuições mensais associativas a fim de honrar os compromissos da Associação, em forma de rateio entre todos os associados para suprir todas as despesas. Na eventualidade do desligamento do quadro associativo, comunicarei a minha decisão por escrito à Diretoria da Associação com aviso prévio de 30 dias.
+Estou ciente que o valor a ser pago do primeiro ao último mês como associado corresponderá ao mês inteiro, ou seja, não cabendo pagamento proporcional sobre dias, independentemente da data da assinatura do cadastro ou da data do cancelamento do quadro associativo.</label><br>
+  <p>Gostaria de receber o Boleto referente ao pagamento da Contribuição Mensal através de:</p>
+  <input type="radio" name="payment" id="form_radio1" required="required"><label for="form_radio1">Boleto bancário via Correio</label><br>
+  <input type="radio" name="payment" id="form_radio2" required="required"><label for="form_radio2">Boleto via e-mail</label><br>
+  <input type="radio" name="payment" id="form_radio3" required="required"><label for="form_radio3">PIX</label> 
+  <br>
+  <p><a href="./media/convite-associacao.pdf">Carta convite aos moradores</a></p>
   <button type="submit" style="margin-right: auto; margin-top: 0.5em; display: block;">> Enviar <</button>
 </form>
 

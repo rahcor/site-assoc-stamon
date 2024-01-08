@@ -5,6 +5,7 @@ extra-css: './src/stamonica.css'
 lang: 'pt-BR'
 title: 'Associação de Moradores do Parque Santa Mônica'
 subtitle: 'São Carlos - SP'
+header-button: True
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True

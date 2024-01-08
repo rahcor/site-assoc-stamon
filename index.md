@@ -6,6 +6,7 @@ lang: 'pt-BR'
 root-url: 'file:///home/rafael/workspace/assoc-sta-monica/site-assoc-stamon/'
 title: 'Associação de Moradores do Parque Santa Mônica'
 subtitle: 'São Carlos - SP'
+header-button: True
 logo: './src/logo.png'
 favicon: './favicon.ico'
 footer: True
