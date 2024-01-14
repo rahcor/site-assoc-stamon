@@ -137,30 +137,30 @@ Mônica</h1>
         <form id="associar" action="https://formspree.io/f/xdobzzzn" method="POST" target="_blank">
         <input type="hidden" name="_language" value="pt-BR">
         <div class="form-left">
-        <p><label>Nome:<input type="text" name="name" style="width: 100%;" required="required"></label>
+        <p><label>Nome:<input type="text" name="nome" style="width: 100%;" required="required"></label>
         <label>Data de
-        nascimento:<input type="tel" name="bdate" style="width: 100%;"></label>
+        nascimento:<input type="tel" name="data_nascimento" style="width: 100%;" maxlength=10></label>
         <label>Local de
-        nascimento:<input type="text" name="bplace" style="width: 100%;"></label>
+        nascimento:<input type="text" name="local_nascimento" style="width: 100%;"></label>
         <!--  <label>Nacionalidade:<input type="text" name="bcountry" style="width: 100%;"></label>-->
         <label>CPF:<input type="tel" name="cpf" pattern="[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}" style="width: 100%;"></label>
-        <label>E-mail:<input type="email" name="mail" title="E-mail" style="width: 100%;" required="required"></label>
+        <label>E-mail:<input type="email" name="email" title="E-mail" style="width: 100%;" required="required"></label>
         <!--  <label>RG:<input type="tel" name="rg" pattern="(^\d {1,2}).? (\d {3}).? (\d {3})-? (\d {1}|X|x$)" style="width: 100%;"></label>--></p>
         </div>
         <div class="form-right">
         <p><label>Rua e nº da
-        residência:<input type="text" name="street" style="width: 100%;" title="Rua e nº da residência" required="required"></label>
-        <label>CEP:<input type="tel" name="cep" pattern="\d{5} \-? \d{3}" style="width: 100%;"></label>
+        residência:<input type="text" name="endereco" style="width: 100%;" title="Rua e nº da residência" required="required"></label>
+        <label>CEP:<input type="tel" name="cep" pattern="\d{5} \-? \d{3}" style="width: 100%;" maxlength=9></label>
         <label>Celular com
-        DDD:<input type="tel" name="phone" style="width: 100%;" required="required"></label>
+        DDD:<input type="tel" name="celular" style="width: 100%;" required="required"></label>
         <!--  <label>Telefone fixo (se tiver):<input type="tel" pattern="\(?[1-9]{2}\)? (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}" name="altphone" style="width: 100%;"></label>-->
         <label>Contato adicional
-        (nome):<input type="text" name="adcontact_name" style="width: 100%;"></label>
+        (nome):<input type="text" name="adicional_nome" style="width: 100%;"></label>
         <label>Celular do contato
-        adicional:<input type="tel" name="adcontact_phone" style="width: 100%;"></label></p>
+        adicional:<input type="tel" name="adicional_celular" style="width: 100%;"></label></p>
         </div>
         <br>
-        <input type="checkbox" name="agree" id="form_agree" required="required"><label for="form_agree" style="font-style: italic;">Desejo
+        <input type="checkbox" name="concorda_termos" id="form_agree" required="required"><label for="form_agree" style="font-style: italic;">Desejo
         fazer parte do quadro dos associados da Associação Amigos do
         Bairro Parque Santa Mônica, manifestando-me ciente e
         compromentendo-me a realizar fielmente o pagamento das
@@ -175,15 +175,12 @@ Mônica</h1>
         data da assinatura do cadastro ou da data do cancelamento do
         quadro associativo.</label><br>
         <p>
-        Gostaria de receber o Boleto referente ao pagamento da
-        Contribuição Mensal através de:
+        Marque a forma de pagamento desejada:
         </p>
-        <input type="radio" name="payment" id="form_radio1" required="required"><label for="form_radio1">Boleto
-        bancário via Correio</label><br>
-        <input type="radio" name="payment" id="form_radio2" required="required"><label for="form_radio2">Boleto
-        via e-mail</label><br>
-        <input type="radio" name="payment" id="form_radio3" required="required"><label for="form_radio3">PIX</label>
-        <br>
+        <input type="checkbox" name="pix" id="form_radio1"><label for="form_radio1">PIX</label><br>
+        <input type="checkbox" name="boleto" id="form_radio2"><label for="form_radio2">Boleto</label><br>
+        <input type="checkbox" name="deposito" id="form_radio3"><label for="form_radio3">Depósito
+        bancário</label> <br>
         <p>
         <a href="./media/convite-associacao.pdf">Carta convite aos
         moradores</a>
