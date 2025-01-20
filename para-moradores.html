@@ -45,14 +45,14 @@ Mônica</h1>
             </ol>
           </details>
         </nav>  <h2 id="comunicados">Comunicados e orientações</h2>
-        <!--<details style="margin-bottom: 1em;" open=""> <summary class="summary-closed">Comunicados anteriores</summary>-->
-        Comunicados:
+        <p>Reportagem da EPTV de janeiro/2025: <a
+        href="https://globoplay.globo.com/v/13257118/">clique aqui para
+        acessar no site da globo.com</a></p>
+        <details>
+        <summary class="summary-closed">
+        Comunicados anteriores
+        </summary>
         <ul style="margin-bottom: 1.5em;">
-        <li>
-        <strong style="color:red;">A implantação dos novos pontos de
-        câmeras está ocorrendo!</strong> Obrigado pela contribuição! Em
-        breve traremos um comunicado completo.
-        </li>
         <li>
         <a href="./media/comunicados2022/comunicado20220201.pdf">01/fevereiro/2022
         – Ações iniciadas em 2022</a>
@@ -66,7 +66,7 @@ Mônica</h1>
         – Projetos e ações realizados em 2021 e futuras</a>
         </li>
         </ul>
-        <!--</details>-->
+        </details>
         Orientações (clique no item para detalhar):
         <details>
         <summary class="summary-closed">
@@ -133,7 +133,7 @@ Mônica</h1>
         <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
         <h2 id="tempo">Previsão do tempo</h2>
         <figure style="text-align: center; overflow:hidden;">
-        <img class="previsao" src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/4774.png" alt="Previsão do tempo temporariamente fora do ar">
+        <img class="previsao" src="https://s0.cptec.inpe.br/grafico/Modelos/WRF/GHT/meteogramas/PPN/2378.png" alt="Previsão do tempo temporariamente fora do ar">
         </figure>
         <p><a href="https://www.ipmetradar.com.br/2animRadar.php"
         rel="noopener noreferrer nofollow" target="_blank">Clique
@@ -162,49 +162,6 @@ Mônica</h1>
         Enviar &lt;</button>
         </form>
         <p><a href="#logo">↥ <em>Retornar ao menu</em></a></p>
-        <h2 id="mapa">Mapa interativo</h2>
-        <div id="map">
-
-        </div>
-        <script>
-            var reciclagem = L.layerGroup();
-
-            var mbAttr = '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> + <a href="https://www.mapbox.com/">Mapbox</a>';
-            var mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
-
-            var streets = L.tileLayer(mbUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
-            var navigation = L.tileLayer(mbUrl, {id: 'mapbox/navigation-day-v1', tileSize: 512, zoomOffset: -1, attribution: mbAttr});
-
-            var map = L.map('map', {
-                center: [-22.013138, -47.905626],
-                zoom: 15,
-                layers: [streets, reciclagem]
-            });
-
-            var baseLayers = {
-                'Ruas': streets,
-                'Trânsito': navigation,
-            };
-
-            var overlays = {
-                'Reciclagem': reciclagem,
-            };
-
-            var layerControl = L.control.layers(baseLayers, overlays,{collapsed:false}).addTo(map);
-
-            var marker = L.marker([-22.015438, -47.906544]).addTo(map)
-                .bindPopup('Ponto de coleta de pilhas, esponjas e óleo de cozinha<br>Esquina da Rua Alexandre Fleming com Av. Dr. Paulo Pinheiro Werneck<br>(<a href="geo:0,0?q=R.+Alexandre+Fleming,+1+-+Parque+Santa+Monica,+São+Carlos+-+SP,+13561-232">Clique aqui para ver no GPS</a>)').addTo(reciclagem).openPopup()
-
-        <!--    function onMapClick(e) {-->
-        <!--        popup-->
-        <!--            .setLatLng(e.latlng)-->
-        <!--            .setContent('You clicked the map at ' + e.latlng.toString())-->
-        <!--            .openOn(map);-->
-        <!--    }-->
-        <!--    map.on('click', onMapClick);-->
-
-        </script>
-        <p><a href="#logo">↥ Retornar ao menu</a></p>
         <footer style="text-align: justify;">
         <p>© 2022-2024 Associação de Moradores do Parque Santa Mônica, porém uso disponível sob licença livre <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Creative Commons BY-SA 4.0</a>, exceto para os conteúdos não originais desse site.
         Construído com <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a> pela própria Associação.</p><!--RRM-->
